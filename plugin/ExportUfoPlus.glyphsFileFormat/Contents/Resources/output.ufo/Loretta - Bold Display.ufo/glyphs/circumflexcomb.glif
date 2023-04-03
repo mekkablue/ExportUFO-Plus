@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb" format="2">
+	<advance width="442"/>
+	<unicode hex="0302"/>
+	<anchor x="222" y="490" name="_top"/>
+	<anchor x="225" y="704" name="top"/>
+	<anchor x="225" y="672" name="top_tilde"/>
+	<anchor x="345" y="640" name="top_viet"/>
+	<outline>
+		<contour>
+			<point x="213" y="733" type="line"/>
+			<point x="75" y="558" type="line"/>
+			<point x="89" y="544" type="line"/>
+			<point x="221" y="617" type="line"/>
+			<point x="353" y="544" type="line"/>
+			<point x="367" y="558" type="line"/>
+			<point x="231" y="733" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=+75</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.85,0.26,0.06,1</string>
+		</dict>
+	</lib>
+</glyph>

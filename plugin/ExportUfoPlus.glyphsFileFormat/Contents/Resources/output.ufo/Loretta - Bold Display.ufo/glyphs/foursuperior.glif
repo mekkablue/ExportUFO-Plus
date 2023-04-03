@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foursuperior" format="2">
+	<advance width="364"/>
+	<unicode hex="2074"/>
+	<outline>
+		<contour>
+			<point x="129" y="387" type="line"/>
+			<point x="319" y="387" type="line"/>
+			<point x="319" y="405" type="line"/>
+			<point x="299" y="405"/>
+			<point x="286" y="415"/>
+			<point x="286" y="430" type="curve" smooth="yes"/>
+			<point x="286" y="471" type="line"/>
+			<point x="334" y="471" type="line"/>
+			<point x="334" y="513" type="line"/>
+			<point x="286" y="513" type="line"/>
+			<point x="286" y="692" type="line"/>
+			<point x="214" y="692" type="line"/>
+			<point x="28" y="497" type="line"/>
+			<point x="38" y="471" type="line"/>
+			<point x="169" y="471" type="line"/>
+			<point x="169" y="430" type="line" smooth="yes"/>
+			<point x="169" y="415"/>
+			<point x="153" y="405"/>
+			<point x="129" y="405" type="curve"/>
+		</contour>
+		<contour>
+			<point x="65" y="513" type="line"/>
+			<point x="169" y="620" type="line"/>
+			<point x="169" y="513" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>four</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>four</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>superiors</string>
+					<key>R</key>
+					<string>superiors</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

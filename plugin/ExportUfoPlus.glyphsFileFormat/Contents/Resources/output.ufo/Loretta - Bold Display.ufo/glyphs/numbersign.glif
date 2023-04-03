@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign" format="2">
+	<advance width="626"/>
+	<unicode hex="0023"/>
+	<outline>
+		<contour>
+			<point x="346" y="0" type="line"/>
+			<point x="370" y="0" type="line"/>
+			<point x="510" y="692" type="line"/>
+			<point x="486" y="692" type="line"/>
+		</contour>
+		<contour>
+			<point x="20" y="220" type="line"/>
+			<point x="576" y="220" type="line"/>
+			<point x="576" y="242" type="line"/>
+			<point x="20" y="242" type="line"/>
+		</contour>
+		<contour>
+			<point x="116" y="0" type="line"/>
+			<point x="140" y="0" type="line"/>
+			<point x="280" y="692" type="line"/>
+			<point x="256" y="692" type="line"/>
+		</contour>
+		<contour>
+			<point x="50" y="450" type="line"/>
+			<point x="606" y="450" type="line"/>
+			<point x="606" y="472" type="line" name="❌"/>
+			<point x="50" y="472" type="line" name="❌"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-10 13:07:44 +0000</string>
+		</dict>
+	</lib>
+</glyph>

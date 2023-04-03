@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonekcomb" format="2">
+	<advance width="360"/>
+	<anchor x="216" y="3" name="_ogonek"/>
+	<outline>
+		<contour>
+			<point x="153" y="-233" type="curve" smooth="yes"/>
+			<point x="213" y="-233"/>
+			<point x="276" y="-208"/>
+			<point x="315" y="-160" type="curve"/>
+			<point x="309" y="-151" type="line"/>
+			<point x="278" y="-182"/>
+			<point x="244" y="-187"/>
+			<point x="223" y="-187" type="curve" smooth="yes"/>
+			<point x="185" y="-187"/>
+			<point x="157" y="-171"/>
+			<point x="157" y="-115" type="curve" smooth="yes"/>
+			<point x="157" y="-90"/>
+			<point x="162" y="-36"/>
+			<point x="235" y="10" type="curve"/>
+			<point x="221" y="10" type="line"/>
+			<point x="83" y="-37"/>
+			<point x="45" y="-98"/>
+			<point x="45" y="-149" type="curve" smooth="yes"/>
+			<point x="45" y="-202"/>
+			<point x="87" y="-233"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

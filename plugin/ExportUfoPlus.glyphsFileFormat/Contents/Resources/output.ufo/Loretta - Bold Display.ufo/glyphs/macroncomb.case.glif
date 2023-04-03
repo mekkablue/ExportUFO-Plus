@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb.case" format="2">
+	<advance width="382"/>
+	<anchor x="191" y="692" name="_top"/>
+	<anchor x="191" y="793" name="top"/>
+	<outline>
+		<contour>
+			<point x="45" y="793" type="line"/>
+			<point x="45" y="759" type="line"/>
+			<point x="337" y="759" type="line"/>
+			<point x="337" y="793" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-14 11:26:06 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=45</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+		</dict>
+	</lib>
+</glyph>

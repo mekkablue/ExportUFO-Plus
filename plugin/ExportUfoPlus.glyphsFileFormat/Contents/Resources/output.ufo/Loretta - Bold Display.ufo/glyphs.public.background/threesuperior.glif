@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threesuperior" format="2">
+	<advance width="331"/>
+	<outline>
+		<contour>
+			<point x="110" y="510" type="line"/>
+			<point x="126" y="518"/>
+			<point x="140" y="521"/>
+			<point x="153" y="521" type="curve" smooth="yes"/>
+			<point x="174" y="521"/>
+			<point x="181" y="508"/>
+			<point x="181" y="495" type="curve" smooth="yes"/>
+			<point x="181" y="460"/>
+			<point x="118" y="439"/>
+			<point x="46" y="436" type="curve"/>
+			<point x="49" y="383" type="line"/>
+			<point x="197" y="389"/>
+			<point x="291" y="438"/>
+			<point x="291" y="503" type="curve" smooth="yes"/>
+			<point x="291" y="539"/>
+			<point x="262" y="573"/>
+			<point x="206" y="573" type="curve" smooth="yes"/>
+			<point x="187" y="573"/>
+			<point x="167" y="569"/>
+			<point x="150" y="561" type="curve"/>
+			<point x="192" y="556" type="line"/>
+			<point x="272" y="631" type="line"/>
+			<point x="264" y="692" type="line"/>
+			<point x="57" y="692" type="line"/>
+			<point x="36" y="591" type="line"/>
+			<point x="76" y="582" type="line"/>
+			<point x="83" y="611"/>
+			<point x="95" y="625"/>
+			<point x="120" y="625" type="curve" smooth="yes"/>
+			<point x="221" y="625" type="line"/>
+			<point x="219" y="657" type="line"/>
+			<point x="90" y="539" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>superiors</string>
+					<key>R</key>
+					<string>superiors</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

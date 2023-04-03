@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="2">
+	<advance width="703"/>
+	<anchor x="346" y="0" name="bottom"/>
+	<anchor x="346" y="640" name="top"/>
+	<outline>
+		<contour>
+			<point x="341" y="-12" type="line"/>
+			<point x="357" y="-8"/>
+			<point x="370" y="-2" name="❌"/>
+			<point x="381" y="9" type="curve"/>
+			<point x="629" y="692" type="line" name="_corner00"/>
+			<point x="612" y="692" type="line" name="_corner01"/>
+			<point x="376" y="43" type="line"/>
+			<point x="374" y="43" type="line"/>
+			<point x="133" y="692" type="line" name="_corner02"/>
+			<point x="74" y="692" type="line" name="_corner03"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>V</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexhookabove" format="2">
+	<advance width="493"/>
+	<unicode hex="1EC3"/>
+	<outline>
+		<component base="e"/>
+		<component base="circumflexcomb_hookabovecomb" xOffset="62"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-16 10:19:39 +0000</string>
+		</dict>
+	</lib>
+</glyph>

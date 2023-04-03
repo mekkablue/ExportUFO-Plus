@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexdotbelow" format="2">
+	<advance width="560"/>
+	<unicode hex="1EC7"/>
+	<outline>
+		<component base="e"/>
+		<component base="circumflexcomb" xOffset="77"/>
+		<component base="dotbelowcomb" xOffset="153"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-07-20 12:33:17 +0000</string>
+		</dict>
+	</lib>
+</glyph>

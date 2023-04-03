@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft" format="2">
+	<advance width="385"/>
+	<unicode hex="2039"/>
+	<outline>
+		<contour>
+			<point x="290" y="59" type="curve"/>
+			<point x="305" y="67" type="line"/>
+			<point x="261" y="147"/>
+			<point x="205" y="191"/>
+			<point x="137" y="243" type="curve"/>
+			<point x="137" y="245" type="line"/>
+			<point x="205" y="297"/>
+			<point x="261" y="341"/>
+			<point x="305" y="421" type="curve"/>
+			<point x="290" y="429" type="line"/>
+			<point x="234" y="358"/>
+			<point x="176" y="316"/>
+			<point x="70" y="261" type="curve"/>
+			<point x="70" y="227" type="line"/>
+			<point x="176" y="172"/>
+			<point x="234" y="130"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 07:30:54 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>quotes</string>
+					<key>R</key>
+					<string>quotes</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

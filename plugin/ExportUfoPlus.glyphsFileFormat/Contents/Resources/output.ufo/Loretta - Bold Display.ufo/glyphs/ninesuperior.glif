@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ninesuperior" format="2">
+	<advance width="375"/>
+	<unicode hex="2079"/>
+	<outline>
+		<contour>
+			<point x="73" y="388" type="line"/>
+			<point x="223" y="391"/>
+			<point x="325" y="466"/>
+			<point x="325" y="569" type="curve" smooth="yes"/>
+			<point x="325" y="650"/>
+			<point x="263" y="704"/>
+			<point x="180" y="704" type="curve" smooth="yes"/>
+			<point x="107" y="704"/>
+			<point x="46" y="663"/>
+			<point x="46" y="594" type="curve" smooth="yes"/>
+			<point x="46" y="544"/>
+			<point x="79" y="499"/>
+			<point x="147" y="499" type="curve" smooth="yes"/>
+			<point x="189" y="499"/>
+			<point x="214" y="516"/>
+			<point x="229" y="542" type="curve"/>
+			<point x="224" y="560" type="line"/>
+			<point x="218" y="542"/>
+			<point x="201" y="530"/>
+			<point x="185" y="530" type="curve" smooth="yes"/>
+			<point x="157" y="530"/>
+			<point x="147" y="566"/>
+			<point x="147" y="610" type="curve" smooth="yes"/>
+			<point x="147" y="660"/>
+			<point x="160" y="686"/>
+			<point x="180" y="686" type="curve" smooth="yes"/>
+			<point x="202" y="686"/>
+			<point x="222" y="653"/>
+			<point x="222" y="576" type="curve" smooth="yes"/>
+			<point x="222" y="455"/>
+			<point x="173" y="412"/>
+			<point x="71" y="406" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>nine</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>nine</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>superiors</string>
+					<key>R</key>
+					<string>superiors</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

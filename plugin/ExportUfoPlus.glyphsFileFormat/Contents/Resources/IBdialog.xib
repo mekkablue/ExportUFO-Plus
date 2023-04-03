@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="GlyphsFileFormatUFO">
+            <connections>
+                <outlet property="exportMultiSettingsView" destination="18" id="64"/>
+                <outlet property="exportSettingsTabView" destination="NL6-NV-6bF" id="LgJ-SJ-FbZ"/>
+                <outlet property="exportSingleSettingsView" destination="45" id="65"/>
+                <outlet property="masterArrayController" destination="15" id="66"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <tabView drawsBackground="NO" type="noTabsNoBorder" translatesAutoresizingMaskIntoConstraints="NO" id="NL6-NV-6bF">
+            <rect key="frame" x="0.0" y="0.0" width="487" height="446"/>
+            <font key="font" metaFont="system"/>
+            <point key="canvasLocation" x="121.5" y="-494"/>
+        </tabView>
+        <customView misplaced="YES" id="18">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="246"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19">
+                    <rect key="frame" x="30" y="106" width="360" height="100"/>
+                    <clipView key="contentView" id="8XI-Tf-trP">
+                        <rect key="frame" x="1" y="1" width="358" height="98"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" emptySelection="NO" autosaveColumns="NO" id="22">
+                                <rect key="frame" x="0.0" y="0.0" width="358" height="98"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <size key="intercellSpacing" width="3" height="2"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn editable="NO" width="317" minWidth="40" maxWidth="1000" id="24">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="27">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                        <connections>
+                                            <binding destination="15" name="value" keyPath="arrangedObjects.name" id="31"/>
+                                        </connections>
+                                    </tableColumn>
+                                </tableColumns>
+                            </tableView>
+                        </subviews>
+                    </clipView>
+                    <constraints>
+                        <constraint firstAttribute="width" priority="900" constant="360" id="QLb-19-b8F"/>
+                        <constraint firstAttribute="height" constant="100" id="hwJ-yE-4zW"/>
+                    </constraints>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="21">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="20">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <textField verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="29">
+                    <rect key="frame" x="28" y="214" width="364" height="16"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Select Masters to export as UFO:" id="30">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" preferredMaxLayoutWidth="317" translatesAutoresizingMaskIntoConstraints="NO" id="34">
+                    <rect key="frame" x="28" y="20" width="364" height="32"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" allowsEditingTextAttributes="YES" id="35">
+                        <font key="font" metaFont="system"/>
+                        <string key="title">It writes all selected masters as separate .ufo files.
+All files at the chosen location will be overwritten.</string>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="1000" horizontalCompressionResistancePriority="901" translatesAutoresizingMaskIntoConstraints="NO" id="lsU-dV-HO0">
+                    <rect key="frame" x="28" y="81" width="362" height="18"/>
+                    <buttonCell key="cell" type="check" title="Convert Glyph Names to Production Names" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="I8S-Fc-UvT">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="39" name="value" keyPath="values.UFOConvertGlyphNames" id="YtI-62-vOz"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="1000" horizontalCompressionResistancePriority="901" translatesAutoresizingMaskIntoConstraints="NO" id="96g-Xo-WKq">
+                    <rect key="frame" x="28" y="59" width="362" height="18"/>
+                    <buttonCell key="cell" type="check" title="Decompose Smart Stuff" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="UiN-7o-1Oy">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="39" name="value" keyPath="values.UFODecomposeSmartStuff" id="Gni-9l-KkW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="18" secondAttribute="leading" constant="30" id="92C-nU-J6A"/>
+                <constraint firstItem="96g-Xo-WKq" firstAttribute="trailing" secondItem="29" secondAttribute="trailing" id="Byb-Di-bye"/>
+                <constraint firstItem="lsU-dV-HO0" firstAttribute="trailing" secondItem="29" secondAttribute="trailing" id="CnI-h2-fLd"/>
+                <constraint firstItem="34" firstAttribute="trailing" secondItem="19" secondAttribute="trailing" id="IFS-iO-LLO"/>
+                <constraint firstItem="34" firstAttribute="top" secondItem="96g-Xo-WKq" secondAttribute="bottom" constant="8" symbolic="YES" id="JaG-3r-v3g"/>
+                <constraint firstItem="19" firstAttribute="trailing" secondItem="29" secondAttribute="trailing" id="KaC-nS-0yu"/>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="34" secondAttribute="leading" id="PHY-KP-IFH"/>
+                <constraint firstItem="29" firstAttribute="top" secondItem="18" secondAttribute="top" constant="20" symbolic="YES" id="Pxi-OP-vUa"/>
+                <constraint firstItem="96g-Xo-WKq" firstAttribute="top" secondItem="lsU-dV-HO0" secondAttribute="bottom" constant="6" symbolic="YES" id="YHy-8Q-6JB"/>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="lsU-dV-HO0" secondAttribute="leading" id="Yja-ff-93w"/>
+                <constraint firstAttribute="trailing" secondItem="19" secondAttribute="trailing" constant="30" id="dcl-Lt-VeC"/>
+                <constraint firstItem="19" firstAttribute="top" secondItem="29" secondAttribute="bottom" constant="8" symbolic="YES" id="i0l-pk-8a5"/>
+                <constraint firstItem="96g-Xo-WKq" firstAttribute="leading" secondItem="lsU-dV-HO0" secondAttribute="leading" id="kWb-Ks-zbj"/>
+                <constraint firstItem="19" firstAttribute="leading" secondItem="29" secondAttribute="leading" id="keu-UY-eVR"/>
+                <constraint firstItem="lsU-dV-HO0" firstAttribute="top" secondItem="19" secondAttribute="bottom" constant="8" symbolic="YES" id="wMh-54-ahq"/>
+                <constraint firstAttribute="bottom" secondItem="34" secondAttribute="bottom" constant="20" symbolic="YES" id="xev-WR-tx0"/>
+            </constraints>
+            <point key="canvasLocation" x="-30" y="42"/>
+        </customView>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <arrayController objectClassName="GSFontMaster" editable="NO" automaticallyPreparesContent="YES" id="15">
+            <declaredKeys>
+                <string>name</string>
+                <string>UFOExportConvertFontLabKerning</string>
+            </declaredKeys>
+            <classReference key="objectClass" className="GSFontMaster"/>
+        </arrayController>
+        <userDefaultsController representsSharedInstance="YES" id="39"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="45">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="80"/>
+            <subviews>
+                <button horizontalHuggingPriority="750" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="QRK-5Z-vQQ">
+                    <rect key="frame" x="28" y="43" width="302" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="g4F-sm-NLq"/>
+                    </constraints>
+                    <buttonCell key="cell" type="check" title="Convert Glyph Names to Production Names" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Tyb-pJ-i7d">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="39" name="value" keyPath="values.UFOConvertGlyphNames" id="ZZF-NA-ePO"/>
+                    </connections>
+                </button>
+                <button horizontalHuggingPriority="750" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="wJZ-jg-SlN">
+                    <rect key="frame" x="28" y="19" width="302" height="18"/>
+                    <buttonCell key="cell" type="check" title="Decompose Smart Stuff" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="yPy-0t-xjh">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="39" name="value" keyPath="values.UFODecomposeSmartStuff" id="yjM-5x-EXM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="wJZ-jg-SlN" firstAttribute="top" secondItem="QRK-5Z-vQQ" secondAttribute="bottom" constant="8" id="1pb-9A-I85"/>
+                <constraint firstItem="QRK-5Z-vQQ" firstAttribute="leading" secondItem="45" secondAttribute="leading" constant="30" id="7N6-FP-X5Q"/>
+                <constraint firstAttribute="bottom" secondItem="wJZ-jg-SlN" secondAttribute="bottom" constant="20" symbolic="YES" id="7ju-jL-uJZ"/>
+                <constraint firstItem="wJZ-jg-SlN" firstAttribute="trailing" secondItem="QRK-5Z-vQQ" secondAttribute="trailing" id="OGJ-Tw-EsD"/>
+                <constraint firstItem="wJZ-jg-SlN" firstAttribute="leading" secondItem="QRK-5Z-vQQ" secondAttribute="leading" id="OhO-1d-OYJ"/>
+                <constraint firstItem="QRK-5Z-vQQ" firstAttribute="top" secondItem="45" secondAttribute="top" constant="20" symbolic="YES" id="U7Y-bd-YYs"/>
+                <constraint firstAttribute="trailing" secondItem="QRK-5Z-vQQ" secondAttribute="trailing" constant="30" id="pdb-4V-kxF"/>
+            </constraints>
+            <point key="canvasLocation" x="-210" y="-173"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twosuperior" format="2">
+	<advance width="343"/>
+	<unicode hex="00B2"/>
+	<outline>
+		<contour>
+			<point x="40" y="387" type="line"/>
+			<point x="289" y="387" type="line"/>
+			<point x="303" y="512" type="line"/>
+			<point x="285" y="512" type="line"/>
+			<point x="273" y="466"/>
+			<point x="248" y="454"/>
+			<point x="204" y="454" type="curve" smooth="yes"/>
+			<point x="103" y="454" type="line"/>
+			<point x="63" y="426" type="line"/>
+			<point x="168" y="489" type="line" smooth="yes"/>
+			<point x="248" y="537"/>
+			<point x="284" y="573"/>
+			<point x="284" y="620" type="curve" smooth="yes"/>
+			<point x="284" y="672"/>
+			<point x="241" y="704"/>
+			<point x="176" y="704" type="curve" smooth="yes"/>
+			<point x="104" y="704"/>
+			<point x="62" y="664"/>
+			<point x="42" y="596" type="curve"/>
+			<point x="60" y="593" type="line"/>
+			<point x="74" y="628"/>
+			<point x="90" y="648"/>
+			<point x="122" y="648" type="curve" smooth="yes"/>
+			<point x="144" y="648"/>
+			<point x="168" y="638"/>
+			<point x="168" y="584" type="curve" smooth="yes"/>
+			<point x="168" y="542"/>
+			<point x="153" y="503"/>
+			<point x="87" y="455" type="curve" smooth="yes"/>
+			<point x="35" y="417" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>two</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>two</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>superiors</string>
+					<key>R</key>
+					<string>superiors</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

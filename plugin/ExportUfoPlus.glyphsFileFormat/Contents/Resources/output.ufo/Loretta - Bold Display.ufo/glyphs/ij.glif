@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ij" format="2">
+	<advance width="624"/>
+	<unicode hex="0133"/>
+	<outline>
+		<component base="i"/>
+		<component base="j" xOffset="312"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-29 16:11:49 +0000</string>
+		</dict>
+	</lib>
+</glyph>

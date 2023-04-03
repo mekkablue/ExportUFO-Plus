@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi" format="2">
+	<advance width="534"/>
+	<unicode hex="03C0"/>
+	<outline>
+		<contour>
+			<point x="30" y="0" type="line"/>
+			<point x="126" y="0" type="line"/>
+			<point x="182" y="112"/>
+			<point x="217" y="292"/>
+			<point x="213" y="448" type="curve" name="🧨"/>
+			<point x="198" y="448" type="line" name="🧨"/>
+			<point x="203" y="285"/>
+			<point x="141" y="73"/>
+			<point x="30" y="10" type="curve"/>
+		</contour>
+		<contour>
+			<point x="392" y="0" type="curve" smooth="yes"/>
+			<point x="446" y="0"/>
+			<point x="494" y="35"/>
+			<point x="525" y="103" type="curve"/>
+			<point x="516" y="109" type="line"/>
+			<point x="488" y="65"/>
+			<point x="460" y="46"/>
+			<point x="420" y="46" type="curve" smooth="yes"/>
+			<point x="374" y="46"/>
+			<point x="337" y="70"/>
+			<point x="337" y="166" type="curve" smooth="yes"/>
+			<point x="337" y="262"/>
+			<point x="374" y="372"/>
+			<point x="405" y="448" type="curve" name="🧨"/>
+			<point x="395" y="448" type="line" name="🧨"/>
+			<point x="357" y="373"/>
+			<point x="294" y="236"/>
+			<point x="294" y="129" type="curve" smooth="yes"/>
+			<point x="294" y="50"/>
+			<point x="328" y="0"/>
+		</contour>
+		<contour>
+			<point x="485" y="430" type="line"/>
+			<point x="485" y="478" type="line"/>
+			<point x="57" y="478" type="line"/>
+			<point x="25" y="346" type="line"/>
+			<point x="35" y="346" type="line"/>
+			<point x="56" y="422"/>
+			<point x="81" y="430"/>
+			<point x="130" y="430" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-14 10:37:55 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

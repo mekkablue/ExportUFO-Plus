@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="product" format="2">
+	<advance width="695"/>
+	<unicode hex="220F"/>
+	<outline>
+		<contour>
+			<point x="150" y="-120" type="line" name="_corner02"/>
+			<point x="205" y="-120" type="line" name="_corner00"/>
+			<point x="205" y="692" type="line" name="🧨"/>
+			<point x="150" y="692" type="line" name="_corner01"/>
+		</contour>
+		<contour>
+			<point x="490" y="-120" type="line" name="_corner05"/>
+			<point x="545" y="-120" type="line" name="_corner03"/>
+			<point x="545" y="692" type="line" name="_corner04"/>
+			<point x="490" y="692" type="line" name="🧨"/>
+		</contour>
+		<contour>
+			<point x="190" y="692" type="line" name="🧨"/>
+			<point x="190" y="679" type="line"/>
+			<point x="505" y="679" type="line"/>
+			<point x="505" y="692" type="line" name="🧨"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-14 10:44:44 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner02</string>
+					<key>scale</key>
+					<string>{1, -1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner03</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner04</string>
+					<key>scale</key>
+					<string>{-1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner05</string>
+					<key>scale</key>
+					<string>{1, -1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

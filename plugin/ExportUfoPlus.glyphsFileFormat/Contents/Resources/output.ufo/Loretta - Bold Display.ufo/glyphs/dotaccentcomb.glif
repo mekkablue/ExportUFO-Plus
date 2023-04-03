@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccentcomb" format="2">
+	<advance width="338"/>
+	<unicode hex="0307"/>
+	<anchor x="169" y="490" name="_top"/>
+	<anchor x="169" y="727" name="top"/>
+	<outline>
+		<contour>
+			<point x="169" y="532" type="curve" smooth="yes"/>
+			<point x="221" y="532"/>
+			<point x="267" y="571"/>
+			<point x="267" y="630" type="curve" smooth="yes"/>
+			<point x="267" y="688"/>
+			<point x="221" y="727"/>
+			<point x="169" y="727" type="curve" smooth="yes"/>
+			<point x="116" y="727"/>
+			<point x="71" y="688"/>
+			<point x="71" y="630" type="curve" smooth="yes"/>
+			<point x="71" y="571"/>
+			<point x="116" y="532"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-07-20 11:48:45 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

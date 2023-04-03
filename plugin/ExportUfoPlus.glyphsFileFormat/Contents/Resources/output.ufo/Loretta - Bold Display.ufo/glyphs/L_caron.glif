@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="2">
+	<advance width="652"/>
+	<unicode hex="013D"/>
+	<outline>
+		<component base="L"/>
+		<component base="caroncomb.alt" xOffset="390" yOffset="-38"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-14 10:40:46 +0000</string>
+		</dict>
+	</lib>
+</glyph>

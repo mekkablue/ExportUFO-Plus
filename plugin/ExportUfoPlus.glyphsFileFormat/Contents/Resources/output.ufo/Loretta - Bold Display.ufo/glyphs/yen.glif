@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yen" format="2">
+	<advance width="717"/>
+	<unicode hex="00A5"/>
+	<outline>
+		<contour>
+			<point x="275" y="0" type="line" name="_corner00"/>
+			<point x="448" y="0" type="line" name="_corner01"/>
+			<point x="448" y="287" type="line"/>
+			<point x="597" y="552" type="line" smooth="yes"/>
+			<point x="636" y="621"/>
+			<point x="654" y="632"/>
+			<point x="702" y="632" type="curve"/>
+			<point x="702" y="652" type="line"/>
+			<point x="513" y="652" type="line"/>
+			<point x="513" y="632" type="line"/>
+			<point x="567" y="632"/>
+			<point x="606" y="611"/>
+			<point x="579" y="565" type="curve" smooth="yes"/>
+			<point x="437" y="317" type="line"/>
+			<point x="430" y="317" type="line"/>
+			<point x="301" y="557" type="line" smooth="yes"/>
+			<point x="275" y="606"/>
+			<point x="304" y="632"/>
+			<point x="361" y="632" type="curve"/>
+			<point x="361" y="652" type="line"/>
+			<point x="15" y="652" type="line"/>
+			<point x="15" y="632" type="line"/>
+			<point x="68" y="632"/>
+			<point x="82" y="618"/>
+			<point x="107" y="575" type="curve" smooth="yes"/>
+			<point x="275" y="287" type="line"/>
+		</contour>
+		<contour>
+			<point x="125" y="289" type="line"/>
+			<point x="338" y="289" type="line"/>
+			<point x="338" y="311" type="line"/>
+			<point x="125" y="311" type="line"/>
+		</contour>
+		<contour>
+			<point x="125" y="189" type="line"/>
+			<point x="586" y="189" type="line"/>
+			<point x="586" y="211" type="line"/>
+			<point x="125" y="211" type="line"/>
+		</contour>
+		<contour>
+			<point x="393" y="289" type="line"/>
+			<point x="586" y="289" type="line"/>
+			<point x="586" y="311" type="line"/>
+			<point x="393" y="311" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>scale</key>
+					<string>{-1.1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>scale</key>
+					<string>{1.1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

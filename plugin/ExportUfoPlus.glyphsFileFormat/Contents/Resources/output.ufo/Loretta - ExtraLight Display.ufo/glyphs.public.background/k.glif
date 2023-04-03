@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k" format="2">
+	<advance width="499"/>
+	<outline>
+		<contour>
+			<point x="107" y="0" type="line" name="_corner01"/>
+			<point x="152" y="0" type="line" name="_corner00"/>
+			<point x="152" y="730" type="line"/>
+			<point x="142" y="730" type="line"/>
+			<point x="27" y="682" type="line"/>
+			<point x="27" y="672" type="line"/>
+			<point x="81" y="687"/>
+			<point x="107" y="668"/>
+			<point x="107" y="622" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="409" y="0" type="line"/>
+			<point x="494" y="0" type="line"/>
+			<point x="494" y="10" type="line"/>
+			<point x="472" y="14"/>
+			<point x="443" y="36"/>
+			<point x="422" y="66" type="curve" smooth="yes"/>
+			<point x="251" y="307" type="line"/>
+			<point x="214" y="274" type="line"/>
+		</contour>
+		<contour>
+			<point x="133" y="176" type="line"/>
+			<point x="339" y="392" type="line" smooth="yes"/>
+			<point x="387" y="443"/>
+			<point x="423" y="468"/>
+			<point x="477" y="468" type="curve"/>
+			<point x="477" y="478" type="line" name="❌"/>
+			<point x="287" y="478" type="line" name="❌"/>
+			<point x="287" y="468" type="line"/>
+			<point x="334" y="468"/>
+			<point x="357" y="429"/>
+			<point x="314" y="383" type="curve" smooth="yes"/>
+			<point x="133" y="193" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>k</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

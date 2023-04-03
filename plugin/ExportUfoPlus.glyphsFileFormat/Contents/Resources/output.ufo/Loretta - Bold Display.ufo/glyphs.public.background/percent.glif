@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="percent" format="2">
+	<advance width="880"/>
+	<outline>
+		<contour>
+			<point x="171" y="0" type="line"/>
+			<point x="240" y="0" type="line"/>
+			<point x="710" y="704" type="line"/>
+			<point x="641" y="704" type="line"/>
+		</contour>
+		<contour>
+			<point x="233" y="347" type="curve" smooth="yes"/>
+			<point x="339" y="347"/>
+			<point x="406" y="427"/>
+			<point x="406" y="531" type="curve" smooth="yes"/>
+			<point x="406" y="640"/>
+			<point x="331" y="712"/>
+			<point x="233" y="712" type="curve" smooth="yes"/>
+			<point x="129" y="712"/>
+			<point x="60" y="633"/>
+			<point x="60" y="526" type="curve" smooth="yes"/>
+			<point x="60" y="424"/>
+			<point x="128" y="347"/>
+		</contour>
+		<contour>
+			<point x="241" y="416" type="curve" smooth="yes"/>
+			<point x="196" y="416"/>
+			<point x="171" y="477"/>
+			<point x="171" y="541" type="curve" smooth="yes"/>
+			<point x="171" y="611"/>
+			<point x="191" y="644"/>
+			<point x="227" y="644" type="curve" smooth="yes"/>
+			<point x="272" y="644"/>
+			<point x="295" y="582"/>
+			<point x="295" y="518" type="curve" smooth="yes"/>
+			<point x="295" y="450"/>
+			<point x="276" y="416"/>
+		</contour>
+		<contour>
+			<point x="644" y="-13" type="curve" smooth="yes"/>
+			<point x="750" y="-13"/>
+			<point x="817" y="67"/>
+			<point x="817" y="171" type="curve" smooth="yes"/>
+			<point x="817" y="280"/>
+			<point x="742" y="352"/>
+			<point x="644" y="352" type="curve" smooth="yes"/>
+			<point x="540" y="352"/>
+			<point x="471" y="273"/>
+			<point x="471" y="166" type="curve" smooth="yes"/>
+			<point x="471" y="64"/>
+			<point x="539" y="-13"/>
+		</contour>
+		<contour>
+			<point x="652" y="56" type="curve" smooth="yes"/>
+			<point x="607" y="56"/>
+			<point x="582" y="117"/>
+			<point x="582" y="181" type="curve" smooth="yes"/>
+			<point x="582" y="251"/>
+			<point x="602" y="284"/>
+			<point x="638" y="284" type="curve" smooth="yes"/>
+			<point x="683" y="284"/>
+			<point x="706" y="222"/>
+			<point x="706" y="158" type="curve" smooth="yes"/>
+			<point x="706" y="90"/>
+			<point x="687" y="56"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>spaced-off</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

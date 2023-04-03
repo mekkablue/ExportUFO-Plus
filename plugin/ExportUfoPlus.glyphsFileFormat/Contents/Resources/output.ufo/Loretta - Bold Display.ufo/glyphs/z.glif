@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z" format="2">
+	<advance width="519"/>
+	<unicode hex="007A"/>
+	<anchor x="233" y="0" name="bottom"/>
+	<anchor x="233" y="247" name="center"/>
+	<anchor x="259" y="490" name="top"/>
+	<outline>
+		<contour>
+			<point x="30" y="0" type="line"/>
+			<point x="466" y="0" type="line"/>
+			<point x="483" y="184" type="line"/>
+			<point x="465" y="184" type="line"/>
+			<point x="440" y="62"/>
+			<point x="404" y="23"/>
+			<point x="317" y="23" type="curve" smooth="yes"/>
+			<point x="196" y="23" type="line"/>
+			<point x="210" y="16" type="line"/>
+			<point x="494" y="477" type="line"/>
+			<point x="487" y="490" type="line"/>
+			<point x="52" y="490" type="line"/>
+			<point x="37" y="305" type="line"/>
+			<point x="58" y="305" type="line"/>
+			<point x="82" y="428"/>
+			<point x="129" y="467"/>
+			<point x="200" y="467" type="curve" smooth="yes"/>
+			<point x="339" y="467" type="line"/>
+			<point x="326" y="483" type="line"/>
+			<point x="25" y="14" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-27 11:25:30 +0000</string>
+			<key>de.kutilek.scrawl.data</key>
+			<data>
+				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
+				4bibPGyDbj559IeDeTd5kIZdfOHPXxosiDxIwy5OOfT9nw81RB6Soedn3DD4
+				TRKfyRQzyLvJARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzIARqtiEzFgrzI
+				ARqt/BsgHLCbS7MlTAAAAABJRU5ErkJggg==
+			</data>
+			<key>de.kutilek.scrawl.rect</key>
+			<array>
+				<integer>-100</integer>
+				<integer>-308</integer>
+				<integer>711</integer>
+				<integer>1200</integer>
+			</array>
+			<key>de.kutilek.scrawl.size</key>
+			<integer>2</integer>
+			<key>de.kutilek.scrawl.unit</key>
+			<integer>2</integer>
+		</dict>
+	</lib>
+</glyph>

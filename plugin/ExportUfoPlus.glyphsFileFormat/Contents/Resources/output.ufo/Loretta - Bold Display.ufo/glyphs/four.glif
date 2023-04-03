@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four" format="2">
+	<advance width="660"/>
+	<unicode hex="0034"/>
+	<outline>
+		<contour>
+			<point x="347" y="-208" type="line" name="_corner00"/>
+			<point x="514" y="-208" type="line" name="_corner01"/>
+			<point x="514" y="490" type="line"/>
+			<point x="403" y="490" type="line"/>
+			<point x="28" y="37" type="line"/>
+			<point x="61" y="-20" type="line"/>
+			<point x="630" y="-20" type="line"/>
+			<point x="630" y="60" type="line"/>
+			<point x="58" y="60" type="line"/>
+			<point x="58" y="42" type="line"/>
+			<point x="345" y="390" type="line"/>
+			<point x="347" y="390" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-29 14:41:13 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>scale</key>
+					<string>{1.2, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>scale</key>
+					<string>{-1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>four</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

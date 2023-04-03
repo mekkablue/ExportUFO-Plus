@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="strokelongcomb.case" format="2">
+	<advance width="805"/>
+	<anchor x="403" y="313" name="_center"/>
+	<outline>
+		<contour>
+			<point x="20" y="454" type="line"/>
+			<point x="20" y="431" type="line"/>
+			<point x="785" y="431" type="line"/>
+			<point x="785" y="454" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-16 09:50:11 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+		</dict>
+	</lib>
+</glyph>

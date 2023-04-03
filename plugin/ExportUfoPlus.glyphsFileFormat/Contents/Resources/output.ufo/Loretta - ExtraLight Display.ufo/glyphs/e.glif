@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e" format="2">
+	<advance width="493"/>
+	<unicode hex="0065"/>
+	<anchor x="249" y="0" name="bottom"/>
+	<anchor x="380" y="10" name="ogonek"/>
+	<anchor x="263" y="478" name="top"/>
+	<outline>
+		<contour>
+			<point x="259" y="-12" type="curve" smooth="yes"/>
+			<point x="344" y="-12"/>
+			<point x="414" y="37"/>
+			<point x="457" y="133" type="curve"/>
+			<point x="449" y="138" type="line"/>
+			<point x="419" y="72"/>
+			<point x="363" y="25"/>
+			<point x="279" y="25" type="curve" smooth="yes"/>
+			<point x="164" y="25"/>
+			<point x="92" y="113"/>
+			<point x="92" y="259" type="curve" smooth="yes"/>
+			<point x="92" y="404"/>
+			<point x="160" y="476"/>
+			<point x="254" y="476" type="curve" smooth="yes"/>
+			<point x="358" y="476"/>
+			<point x="407" y="388"/>
+			<point x="407" y="282" type="curve"/>
+			<point x="428" y="292" type="line"/>
+			<point x="80" y="292" type="line"/>
+			<point x="80" y="277" type="line"/>
+			<point x="453" y="277" type="line"/>
+			<point x="454" y="416"/>
+			<point x="370" y="490"/>
+			<point x="267" y="490" type="curve" smooth="yes"/>
+			<point x="148" y="490"/>
+			<point x="44" y="394"/>
+			<point x="44" y="236" type="curve" smooth="yes"/>
+			<point x="44" y="86"/>
+			<point x="138" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-27 11:14:51 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>o</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

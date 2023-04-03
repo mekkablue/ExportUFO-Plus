@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sterling" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="98" y="-12" type="line"/>
+			<point x="137" y="9"/>
+			<point x="177" y="18"/>
+			<point x="213" y="18" type="curve" smooth="yes"/>
+			<point x="280" y="18"/>
+			<point x="315" y="-12"/>
+			<point x="395" y="-12" type="curve" smooth="yes"/>
+			<point x="490" y="-12"/>
+			<point x="575" y="32"/>
+			<point x="575" y="189" type="curve"/>
+			<point x="514" y="189" type="line"/>
+			<point x="514" y="124"/>
+			<point x="472" y="104"/>
+			<point x="422" y="104" type="curve" smooth="yes"/>
+			<point x="364" y="104"/>
+			<point x="350" y="131"/>
+			<point x="286" y="131" type="curve" smooth="yes"/>
+			<point x="254" y="131"/>
+			<point x="234" y="124"/>
+			<point x="205" y="109" type="curve"/>
+			<point x="213" y="112" type="line"/>
+			<point x="288" y="152"/>
+			<point x="325" y="208"/>
+			<point x="325" y="269" type="curve" smooth="yes"/>
+			<point x="325" y="341"/>
+			<point x="274" y="391"/>
+			<point x="274" y="486" type="curve" smooth="yes"/>
+			<point x="274" y="530"/>
+			<point x="285" y="587"/>
+			<point x="352" y="587" type="curve" smooth="yes"/>
+			<point x="409" y="587"/>
+			<point x="455" y="546"/>
+			<point x="455" y="460" type="curve"/>
+			<point x="517" y="460" type="line"/>
+			<point x="521" y="613" type="line"/>
+			<point x="467" y="643"/>
+			<point x="411" y="660"/>
+			<point x="338" y="660" type="curve" smooth="yes"/>
+			<point x="171" y="660"/>
+			<point x="85" y="569"/>
+			<point x="85" y="460" type="curve" smooth="yes"/>
+			<point x="85" y="369"/>
+			<point x="145" y="309"/>
+			<point x="145" y="230" type="curve" smooth="yes"/>
+			<point x="145" y="181"/>
+			<point x="122" y="124"/>
+			<point x="50" y="42" type="curve"/>
+		</contour>
+		<contour>
+			<point x="60" y="286" type="line"/>
+			<point x="430" y="286" type="line"/>
+			<point x="430" y="338" type="line"/>
+			<point x="60" y="338" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

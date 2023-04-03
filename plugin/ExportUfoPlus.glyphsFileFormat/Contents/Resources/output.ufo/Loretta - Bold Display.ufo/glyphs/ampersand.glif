@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand" format="2">
+	<advance width="877"/>
+	<unicode hex="0026"/>
+	<outline>
+		<contour>
+			<point x="664" y="-12" type="curve" smooth="yes"/>
+			<point x="769" y="-12"/>
+			<point x="833" y="34"/>
+			<point x="864" y="148" type="curve"/>
+			<point x="845" y="153" type="line"/>
+			<point x="821" y="80"/>
+			<point x="795" y="55"/>
+			<point x="748" y="55" type="curve" smooth="yes"/>
+			<point x="693" y="55"/>
+			<point x="666" y="88"/>
+			<point x="621" y="147" type="curve" smooth="yes"/>
+			<point x="405" y="430" type="line" smooth="yes"/>
+			<point x="338" y="518"/>
+			<point x="314" y="549"/>
+			<point x="314" y="596" type="curve" smooth="yes"/>
+			<point x="314" y="646"/>
+			<point x="342" y="684"/>
+			<point x="398" y="684" type="curve" smooth="yes"/>
+			<point x="459" y="684"/>
+			<point x="519" y="643"/>
+			<point x="551" y="499" type="curve"/>
+			<point x="569" y="499" type="line"/>
+			<point x="569" y="669" type="line"/>
+			<point x="508" y="692"/>
+			<point x="457" y="704"/>
+			<point x="401" y="704" type="curve" smooth="yes"/>
+			<point x="263" y="704"/>
+			<point x="173" y="632"/>
+			<point x="173" y="531" type="curve" smooth="yes"/>
+			<point x="173" y="471"/>
+			<point x="203" y="429"/>
+			<point x="229" y="395" type="curve" smooth="yes"/>
+			<point x="458" y="97" type="line" smooth="yes"/>
+			<point x="510" y="30"/>
+			<point x="562" y="-12"/>
+		</contour>
+		<contour>
+			<point x="258" y="-12" type="curve" smooth="yes"/>
+			<point x="369" y="-12"/>
+			<point x="440" y="45"/>
+			<point x="499" y="118" type="curve"/>
+			<point x="485" y="121" type="line"/>
+			<point x="462" y="99"/>
+			<point x="423" y="82"/>
+			<point x="368" y="82" type="curve" smooth="yes"/>
+			<point x="277" y="82"/>
+			<point x="239" y="128"/>
+			<point x="239" y="215" type="curve" smooth="yes"/>
+			<point x="239" y="272"/>
+			<point x="255" y="312"/>
+			<point x="292" y="354" type="curve"/>
+			<point x="287" y="364" type="line"/>
+			<point x="145" y="343"/>
+			<point x="65" y="266"/>
+			<point x="65" y="160" type="curve" smooth="yes"/>
+			<point x="65" y="61"/>
+			<point x="133" y="-12"/>
+		</contour>
+		<contour>
+			<point x="551" y="170" type="line"/>
+			<point x="733" y="399" type="line" name="_corner00"/>
+			<point x="703" y="399" type="line" name="_corner01"/>
+			<point x="530" y="171" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>scale</key>
+					<string>{-1.5, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

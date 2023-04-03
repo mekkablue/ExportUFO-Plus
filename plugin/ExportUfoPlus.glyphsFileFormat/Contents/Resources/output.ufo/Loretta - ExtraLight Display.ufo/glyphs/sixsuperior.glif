@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sixsuperior" format="2">
+	<advance width="323"/>
+	<unicode hex="2076"/>
+	<outline>
+		<contour>
+			<point x="164" y="378" type="curve" smooth="yes"/>
+			<point x="223" y="378"/>
+			<point x="273" y="420"/>
+			<point x="273" y="486" type="curve" smooth="yes"/>
+			<point x="273" y="540"/>
+			<point x="239" y="583"/>
+			<point x="180" y="583" type="curve" smooth="yes"/>
+			<point x="133" y="583"/>
+			<point x="102" y="556"/>
+			<point x="84" y="525" type="curve"/>
+			<point x="89" y="516" type="line" name="❌"/>
+			<point x="99" y="541"/>
+			<point x="124" y="564"/>
+			<point x="162" y="564" type="curve" smooth="yes"/>
+			<point x="202" y="564"/>
+			<point x="228" y="540"/>
+			<point x="228" y="479" type="curve" smooth="yes"/>
+			<point x="228" y="422"/>
+			<point x="202" y="388"/>
+			<point x="165" y="388" type="curve" smooth="yes"/>
+			<point x="127" y="388"/>
+			<point x="91" y="422"/>
+			<point x="91" y="509" type="curve" smooth="yes"/>
+			<point x="91" y="615"/>
+			<point x="143" y="690"/>
+			<point x="254" y="695" type="curve"/>
+			<point x="252" y="705" type="line"/>
+			<point x="133" y="703"/>
+			<point x="46" y="623"/>
+			<point x="46" y="514" type="curve" smooth="yes"/>
+			<point x="46" y="432"/>
+			<point x="96" y="378"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>six</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>six</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>superiors</string>
+					<key>R</key>
+					<string>superiors</string>
+				</dict>
+			</dict>
+			<key>de.kutilek.scrawl.data</key>
+			<data>
+				iVBORw0KGgoAAAANSUhEUgAAAXEAAAJYCAAAAACxp4kbAAAAOGVYSWZNTQAq
+				AAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAFxoAMABAAAAAEA
+				AAJYAAAAACnHy+cAAAg7SURBVHgB7dihq9VnAMfhc2VtYBDhhm1/gHlNluzC
+				wupgXVmYYcEkKJbNYJa1lTG4mxgMrgyLZWAwOWFBwSaWMSZ4/QPOOfV5X97z
+				ufG94fN7n/Pldw/36HTTDxU4Q2vFNpvE9QoST1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL
+				6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4b
+				T1wL6F4bT1wL6F4bT1wL6F4bT1wL6F4bPxzx9/qqk/TGbfz2k0kI8GMcneLg
+				wefGbfxQ6RPXn3ziiWsB3WvjiWsB3WvjiWsB3WvjByz+x0t9+SG9iTb+1f0h
+				Ajo6kfjRZX35Ib15xP/9/LMhAjo6j/jJJ/ruY3qTiL/9/vTmN2MEdHWW/4+/
+				+vPBz/ruY3ofjcluVd9dfbx1tubBJG+V06+vX1gTeOtWk4j/cPzd1qMtejDH
+				W+X3h78u6rt9rSn+cr758pfj7Udb9GSKt8q1Lw4HfDPDW+XZg78X3fOua82w
+				8bs3zu56tEXPJniPP7/4z8eL6u661gQb//HbQwLfjN/46wsvzu3awqpn4zf+
+				05WDAh//XeX/k5NV17z7XsM3fuvSp7ufbNXT0d/Hf7v3dFXaPfcavPG/bj86
+				v+fJVj0e/F3l+L+3q8ruu9fgt8qdfc+17vngja8Lu/dmg9/je59r3V8krj/b
+				xBPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPX
+				ArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrXxhPXArrX
+				xhPXArr3AVNUOBib1qAeAAAAAElFTkSuQmCC
+			</data>
+			<key>de.kutilek.scrawl.rect</key>
+			<array>
+				<integer>-100</integer>
+				<integer>-300</integer>
+				<integer>737</integer>
+				<integer>1200</integer>
+			</array>
+			<key>de.kutilek.scrawl.size</key>
+			<integer>2</integer>
+			<key>de.kutilek.scrawl.unit</key>
+			<integer>2</integer>
+		</dict>
+	</lib>
+</glyph>

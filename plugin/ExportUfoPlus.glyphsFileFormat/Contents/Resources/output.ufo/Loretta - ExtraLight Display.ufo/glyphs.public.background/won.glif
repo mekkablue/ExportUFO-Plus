@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="won" format="2">
+	<advance width="1021"/>
+	<outline>
+		<contour>
+			<point x="317" y="-24" type="line"/>
+			<point x="336" y="-20"/>
+			<point x="352" y="-12"/>
+			<point x="367" y="2" type="curve" name="❌"/>
+			<point x="516" y="547" type="line"/>
+			<point x="696" y="-24" type="line"/>
+			<point x="715" y="-20"/>
+			<point x="731" y="-12"/>
+			<point x="746" y="2" type="curve" name="❌"/>
+			<point x="955" y="650" type="line" name="_corner00"/>
+			<point x="902" y="650" type="line" name="_corner01"/>
+			<point x="739" y="113" type="line"/>
+			<point x="733" y="113" type="line"/>
+			<point x="565" y="662" type="line"/>
+			<point x="541" y="664"/>
+			<point x="517" y="655"/>
+			<point x="493" y="637" type="curve"/>
+			<point x="357" y="113" type="line"/>
+			<point x="351" y="113" type="line"/>
+			<point x="175" y="650" type="line" name="_corner02"/>
+			<point x="90" y="650" type="line" name="_corner03"/>
+		</contour>
+		<contour>
+			<point x="75" y="283" type="line"/>
+			<point x="965" y="283" type="line"/>
+			<point x="965" y="315" type="line"/>
+			<point x="75" y="315" type="line"/>
+		</contour>
+		<contour>
+			<point x="75" y="383" type="line"/>
+			<point x="965" y="383" type="line"/>
+			<point x="965" y="415" type="line"/>
+			<point x="75" y="415" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

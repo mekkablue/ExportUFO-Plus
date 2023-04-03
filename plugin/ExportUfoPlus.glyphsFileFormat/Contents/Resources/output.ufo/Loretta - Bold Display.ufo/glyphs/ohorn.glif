@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohorn" format="2">
+	<advance width="661"/>
+	<unicode hex="01A1"/>
+	<outline>
+		<component base="o"/>
+		<component base="horncomb" xOffset="441"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-07-20 12:50:03 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+			<string>==+55</string>
+		</dict>
+	</lib>
+</glyph>

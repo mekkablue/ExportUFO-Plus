@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="99" y="318" type="line"/>
+			<point x="500" y="318" type="line"/>
+			<point x="500" y="378" type="line"/>
+			<point x="99" y="378" type="line"/>
+		</contour>
+		<contour>
+			<point x="99" y="168" type="line"/>
+			<point x="500" y="168" type="line"/>
+			<point x="500" y="228" type="line"/>
+			<point x="99" y="228" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>math</string>
+					<key>R</key>
+					<string>math</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

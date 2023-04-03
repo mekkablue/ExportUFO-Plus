@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tugrik" format="2">
+	<advance width="677"/>
+	<outline>
+		<contour>
+			<point x="252" y="0" type="line" name="_corner01"/>
+			<point x="425" y="0" type="line" name="_corner00"/>
+			<point x="425" y="640" type="line"/>
+			<point x="252" y="640" type="line"/>
+		</contour>
+		<contour>
+			<point x="190" y="151" type="line"/>
+			<point x="515" y="316" type="line"/>
+			<point x="489" y="362" type="line"/>
+			<point x="163" y="197" type="line"/>
+		</contour>
+		<contour>
+			<point x="190" y="271" type="line"/>
+			<point x="515" y="436" type="line"/>
+			<point x="489" y="482" type="line"/>
+			<point x="163" y="317" type="line"/>
+		</contour>
+		<contour>
+			<point x="20" y="412" type="line"/>
+			<point x="79" y="412" type="line"/>
+			<point x="116" y="556"/>
+			<point x="129" y="587"/>
+			<point x="172" y="587" type="curve" smooth="yes"/>
+			<point x="505" y="587" type="line" smooth="yes"/>
+			<point x="548" y="587"/>
+			<point x="561" y="556"/>
+			<point x="598" y="412" type="curve"/>
+			<point x="657" y="412" type="line"/>
+			<point x="646" y="672" type="line"/>
+			<point x="602" y="672" type="line"/>
+			<point x="582" y="655"/>
+			<point x="575" y="652"/>
+			<point x="555" y="652" type="curve" smooth="yes"/>
+			<point x="122" y="652" type="line" smooth="yes"/>
+			<point x="103" y="652"/>
+			<point x="94" y="656"/>
+			<point x="75" y="672" type="curve"/>
+			<point x="31" y="672" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

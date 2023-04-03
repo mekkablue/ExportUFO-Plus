@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="2">
+	<advance width="727"/>
+	<unicode hex="01AF"/>
+	<anchor x="384" y="0" name="bottom"/>
+	<anchor x="486" y="11" name="ogonek"/>
+	<anchor x="395" y="640" name="top"/>
+	<anchor x="804" y="772" name="topright"/>
+	<outline>
+		<contour>
+			<point x="385" y="-12" type="curve" smooth="yes"/>
+			<point x="555" y="-12"/>
+			<point x="622" y="113"/>
+			<point x="622" y="235" type="curve" smooth="yes"/>
+			<point x="622" y="692" type="line"/>
+			<point x="608" y="692" type="line" name="_corner02"/>
+			<point x="608" y="245" type="line" smooth="yes"/>
+			<point x="608" y="100"/>
+			<point x="536" y="10"/>
+			<point x="397" y="10" type="curve" smooth="yes"/>
+			<point x="277" y="10"/>
+			<point x="185" y="81"/>
+			<point x="185" y="246" type="curve" smooth="yes"/>
+			<point x="185" y="692" type="line" name="_corner01"/>
+			<point x="135" y="692" type="line" name="_corner00"/>
+			<point x="135" y="231" type="line" smooth="yes"/>
+			<point x="135" y="67"/>
+			<point x="250" y="-12"/>
+		</contour>
+		<contour>
+			<point x="621" y="682" type="line"/>
+			<point x="677" y="682"/>
+			<point x="731" y="716"/>
+			<point x="731" y="776" type="curve" smooth="yes"/>
+			<point x="731" y="790"/>
+			<point x="728" y="803"/>
+			<point x="723" y="814" type="curve"/>
+			<point x="631" y="814" type="line"/>
+			<point x="631" y="804" type="line"/>
+			<point x="672" y="801"/>
+			<point x="687" y="775"/>
+			<point x="687" y="749" type="curve" smooth="yes"/>
+			<point x="687" y="714"/>
+			<point x="660" y="692"/>
+			<point x="621" y="692" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-16 10:01:30 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>scale</key>
+					<string>{-1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner02</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

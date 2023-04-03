@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabovecomb.case" format="2">
+	<advance width="293"/>
+	<anchor x="156" y="640" name="_top"/>
+	<anchor x="156" y="850" name="top"/>
+	<outline>
+		<component base="hookabovecomb" yOffset="167"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-07-20 11:50:16 +0000</string>
+			<key>public.markColor</key>
+			<string>0.85,0.26,0.06,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f" format="2">
+	<advance width="326"/>
+	<unicode hex="0066"/>
+	<anchor x="160" y="0" name="bottom"/>
+	<anchor x="160" y="800" name="top"/>
+	<outline>
+		<contour>
+			<point x="107" y="0" type="line" name="_corner00"/>
+			<point x="152" y="0" type="line" name="_corner01"/>
+			<point x="152" y="478" type="line" name="🧨"/>
+			<point x="133" y="498"/>
+			<point x="122" y="534"/>
+			<point x="122" y="572" type="curve" smooth="yes"/>
+			<point x="122" y="641"/>
+			<point x="161" y="688"/>
+			<point x="222" y="688" type="curve" smooth="yes"/>
+			<point x="269" y="688"/>
+			<point x="297" y="659"/>
+			<point x="305" y="624" type="curve"/>
+			<point x="315" y="624" type="line"/>
+			<point x="315" y="717" type="line"/>
+			<point x="300" y="723"/>
+			<point x="279" y="730"/>
+			<point x="248" y="730" type="curve" smooth="yes"/>
+			<point x="181" y="730"/>
+			<point x="107" y="676"/>
+			<point x="107" y="553" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="37" y="457" type="line"/>
+			<point x="301" y="457" type="line"/>
+			<point x="301" y="478" type="line"/>
+			<point x="107" y="478" type="line" name="🧨"/>
+			<point x="37" y="467" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-29 14:41:13 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>scale</key>
+					<string>{-1.48, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>f</string>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

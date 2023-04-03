@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb" format="2">
+	<advance width="289"/>
+	<anchor x="145" y="490" name="_top"/>
+	<anchor x="145" y="704" name="top"/>
+	<outline>
+		<contour>
+			<point x="143" y="543" type="curve" smooth="yes"/>
+			<point x="197" y="543"/>
+			<point x="236" y="582"/>
+			<point x="236" y="632" type="curve" smooth="yes"/>
+			<point x="236" y="681"/>
+			<point x="197" y="720"/>
+			<point x="143" y="720" type="curve" smooth="yes"/>
+			<point x="90" y="720"/>
+			<point x="51" y="681"/>
+			<point x="51" y="632" type="curve" smooth="yes"/>
+			<point x="51" y="582"/>
+			<point x="90" y="543"/>
+		</contour>
+		<contour>
+			<point x="143" y="589" type="curve" smooth="yes"/>
+			<point x="117" y="589"/>
+			<point x="100" y="608"/>
+			<point x="100" y="632" type="curve" smooth="yes"/>
+			<point x="100" y="655"/>
+			<point x="117" y="675"/>
+			<point x="143" y="675" type="curve" smooth="yes"/>
+			<point x="170" y="675"/>
+			<point x="186" y="655"/>
+			<point x="186" y="632" type="curve" smooth="yes"/>
+			<point x="186" y="609"/>
+			<point x="170" y="589"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

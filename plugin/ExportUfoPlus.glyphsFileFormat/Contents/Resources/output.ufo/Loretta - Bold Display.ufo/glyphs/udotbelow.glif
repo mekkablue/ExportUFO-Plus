@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udotbelow" format="2">
+	<advance width="631"/>
+	<unicode hex="1EE5"/>
+	<outline>
+		<component base="u"/>
+		<component base="dotbelowcomb" xOffset="195"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-20 12:21:40 +0000</string>
+		</dict>
+	</lib>
+</glyph>

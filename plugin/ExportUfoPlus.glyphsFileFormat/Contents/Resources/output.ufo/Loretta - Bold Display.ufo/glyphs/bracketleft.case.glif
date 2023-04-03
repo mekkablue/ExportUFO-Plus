@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft.case" format="2">
+	<advance width="360"/>
+	<outline>
+		<contour>
+			<point x="70" y="-140" type="line"/>
+			<point x="350" y="-140" type="line"/>
+			<point x="350" y="-118" type="line"/>
+			<point x="305" y="-118" type="line" smooth="yes"/>
+			<point x="257" y="-118"/>
+			<point x="240" y="-87"/>
+			<point x="240" y="-55" type="curve" smooth="yes"/>
+			<point x="240" y="714" type="line" smooth="yes"/>
+			<point x="240" y="757"/>
+			<point x="269" y="778"/>
+			<point x="305" y="778" type="curve" smooth="yes"/>
+			<point x="350" y="778" type="line"/>
+			<point x="350" y="800" type="line"/>
+			<point x="70" y="800" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>R</key>
+					<string>parenthesis</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

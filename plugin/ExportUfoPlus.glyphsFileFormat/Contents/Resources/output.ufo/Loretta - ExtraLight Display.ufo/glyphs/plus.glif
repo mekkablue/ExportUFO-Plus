@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus" format="2">
+	<advance width="541"/>
+	<unicode hex="002B"/>
+	<outline>
+		<contour>
+			<point x="253" y="72" type="line"/>
+			<point x="285" y="72" type="line"/>
+			<point x="285" y="474" type="line"/>
+			<point x="253" y="474" type="line"/>
+		</contour>
+		<contour>
+			<point x="70" y="259" type="line"/>
+			<point x="471" y="259" type="line"/>
+			<point x="471" y="289" type="line"/>
+			<point x="70" y="289" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>math</string>
+					<key>R</key>
+					<string>math</string>
+				</dict>
+			</dict>
+			<key>de.kutilek.scrawl.data</key>
+			<data>
+				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
+				AABJRU5ErkJggg==
+			</data>
+			<key>de.kutilek.scrawl.rect</key>
+			<array>
+				<integer>-100</integer>
+				<integer>-300</integer>
+				<integer>800</integer>
+				<integer>1200</integer>
+			</array>
+			<key>de.kutilek.scrawl.size</key>
+			<integer>2</integer>
+			<key>de.kutilek.scrawl.unit</key>
+			<integer>2</integer>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

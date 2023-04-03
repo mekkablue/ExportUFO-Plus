@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="2">
+	<advance width="312"/>
+	<unicode hex="006A"/>
+	<outline>
+		<component base="jdotless"/>
+		<component base="dotaccentcomb" xOffset="5"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-07-20 12:50:03 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>jdotless</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>jdotless</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

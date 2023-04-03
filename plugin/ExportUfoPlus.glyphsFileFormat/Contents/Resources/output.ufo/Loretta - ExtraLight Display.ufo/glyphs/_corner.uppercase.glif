@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_corner.uppercase" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="-10" y="0" type="move"/>
+			<point x="105" y="0" type="line"/>
+			<point x="105" y="16" type="line"/>
+			<point x="33" y="16"/>
+			<point x="0" y="29"/>
+			<point x="0" y="95" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-01-06 12:07:53 +0000</string>
+			<key>public.markColor</key>
+			<string>0.25,0.25,0.25,1</string>
+		</dict>
+	</lib>
+</glyph>

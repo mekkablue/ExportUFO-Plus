@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="baht" format="2">
+	<advance width="713"/>
+	<unicode hex="0E3F"/>
+	<note>
+		uni0E3F
+	</note>
+	<outline>
+		<contour>
+			<point x="226" y="0" type="line" name="🧨"/>
+			<point x="434" y="0" type="line" smooth="yes"/>
+			<point x="609" y="0"/>
+			<point x="682" y="84"/>
+			<point x="682" y="181" type="curve" smooth="yes"/>
+			<point x="682" y="297"/>
+			<point x="576" y="348"/>
+			<point x="424" y="348" type="curve"/>
+			<point x="434" y="342" type="line"/>
+			<point x="568" y="344"/>
+			<point x="659" y="394"/>
+			<point x="659" y="502" type="curve" smooth="yes"/>
+			<point x="659" y="596"/>
+			<point x="589" y="652"/>
+			<point x="430" y="652" type="curve" smooth="yes"/>
+			<point x="226" y="652" type="line" name="🧨"/>
+			<point x="226" y="632" type="line"/>
+			<point x="344" y="632" type="line" smooth="yes"/>
+			<point x="430" y="632"/>
+			<point x="471" y="597"/>
+			<point x="471" y="493" type="curve" smooth="yes"/>
+			<point x="471" y="386"/>
+			<point x="427" y="356"/>
+			<point x="363" y="356" type="curve" smooth="yes"/>
+			<point x="214" y="356" type="line"/>
+			<point x="214" y="328" type="line"/>
+			<point x="373" y="328" type="line" smooth="yes"/>
+			<point x="451" y="328"/>
+			<point x="495" y="293"/>
+			<point x="495" y="179" type="curve" smooth="yes"/>
+			<point x="495" y="58"/>
+			<point x="447" y="20"/>
+			<point x="367" y="20" type="curve" smooth="yes"/>
+			<point x="226" y="20" type="line"/>
+		</contour>
+		<contour>
+			<point x="120" y="0" type="line" name="_corner01"/>
+			<point x="293" y="0" type="line" name="🧨"/>
+			<point x="293" y="652" type="line" name="🧨"/>
+			<point x="120" y="652" type="line" name="_corner00"/>
+		</contour>
+		<contour>
+			<point x="359" y="-90" type="line"/>
+			<point x="381" y="-90" type="line"/>
+			<point x="381" y="730" type="line"/>
+			<point x="359" y="730" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-13 06:55:45 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>scale</key>
+					<string>{1, -1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

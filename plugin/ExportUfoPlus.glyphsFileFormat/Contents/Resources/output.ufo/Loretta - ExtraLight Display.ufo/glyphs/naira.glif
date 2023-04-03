@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira" format="2">
+	<advance width="756"/>
+	<unicode hex="20A6"/>
+	<note>
+		uni20A6
+	</note>
+	<outline>
+		<contour>
+			<point x="592" y="0" type="line" name="🔥"/>
+			<point x="606" y="0" type="line"/>
+			<point x="606" y="555" type="line" smooth="yes"/>
+			<point x="606" y="621"/>
+			<point x="639" y="634"/>
+			<point x="711" y="634" type="curve"/>
+			<point x="711" y="650" type="line"/>
+			<point x="466" y="650" type="line"/>
+			<point x="466" y="634" type="line"/>
+			<point x="552" y="634"/>
+			<point x="592" y="621"/>
+			<point x="592" y="555" type="curve" smooth="yes"/>
+			<point x="592" y="45" type="line" name="🔥"/>
+			<point x="595" y="83" type="line"/>
+			<point x="136" y="650" type="line"/>
+			<point x="45" y="650" type="line"/>
+			<point x="45" y="634" type="line"/>
+			<point x="82" y="623"/>
+			<point x="109" y="600"/>
+			<point x="155" y="540" type="curve"/>
+		</contour>
+		<contour>
+			<point x="45" y="0" type="line"/>
+			<point x="290" y="0" type="line"/>
+			<point x="290" y="16" type="line"/>
+			<point x="204" y="16"/>
+			<point x="164" y="29"/>
+			<point x="164" y="95" type="curve" smooth="yes"/>
+			<point x="164" y="559" type="line"/>
+			<point x="150" y="587" type="line"/>
+			<point x="150" y="95" type="line" smooth="yes"/>
+			<point x="150" y="29"/>
+			<point x="117" y="16"/>
+			<point x="45" y="16" type="curve"/>
+		</contour>
+		<contour>
+			<point x="80" y="266" type="line"/>
+			<point x="690" y="266" type="line"/>
+			<point x="690" y="278" type="line"/>
+			<point x="80" y="278" type="line"/>
+		</contour>
+		<contour>
+			<point x="80" y="386" type="line"/>
+			<point x="690" y="386" type="line"/>
+			<point x="690" y="398" type="line"/>
+			<point x="80" y="398" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

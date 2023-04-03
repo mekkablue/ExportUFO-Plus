@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L" format="2">
+	<advance width="583"/>
+	<unicode hex="004C"/>
+	<anchor x="301" y="0" name="bottom"/>
+	<anchor x="176" y="344" name="center"/>
+	<anchor x="479" y="345" name="dot"/>
+	<anchor x="175" y="640" name="top"/>
+	<anchor x="288" y="692" name="topright"/>
+	<outline>
+		<contour>
+			<point x="150" y="0" type="line" name="_corner02"/>
+			<point x="200" y="0" type="line"/>
+			<point x="200" y="692" type="line" name="_corner00"/>
+			<point x="150" y="692" type="line" name="_corner01"/>
+		</contour>
+		<contour>
+			<point x="170" y="0" type="line" name="🔥"/>
+			<point x="531" y="0" type="line"/>
+			<point x="562" y="214" type="line"/>
+			<point x="550" y="214" type="line"/>
+			<point x="511" y="47"/>
+			<point x="455" y="12"/>
+			<point x="377" y="12" type="curve" smooth="yes"/>
+			<point x="170" y="12" type="line" name="🧨"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-29 14:41:13 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>scale</key>
+					<string>{-1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.uppercase</string>
+					<key>options</key>
+					<integer>1</integer>
+					<key>origin</key>
+					<string>_corner02</string>
+					<key>scale</key>
+					<string>{1, -1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>L</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

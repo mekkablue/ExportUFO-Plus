@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lib</key>
+	<dict>
+		<key>KernOnIndependentPairs</key>
+		<array>
+			<string>guilsinglleft T</string>
+		</array>
+		<key>KernOnModels</key>
+		<array>
+			<string>Y o</string>
+			<string>K v</string>
+			<string>V A</string>
+			<string>V a</string>
+			<string>quotedbl A</string>
+			<string>Y a</string>
+			<string>seven.lf four.lf</string>
+			<string>A v</string>
+			<string>r period</string>
+			<string>parenleft O</string>
+			<string>P A</string>
+			<string>T period</string>
+			<string>seven four</string>
+			<string>L V</string>
+			<string>A T</string>
+			<string>K O</string>
+			<string>L T</string>
+			<string>zero.numr fraction</string>
+			<string>F hyphen</string>
+			<string>fraction zero.dnom</string>
+			<string>seven.lf zero.lf</string>
+			<string>k o</string>
+			<string>fraction one.dnom</string>
+			<string>x hyphen</string>
+			<string>v a</string>
+			<string>x o</string>
+			<string>w o</string>
+			<string>f o</string>
+			<string>f ocircumflexacute</string>
+			<string>n question</string>
+			<string>J A</string>
+			<string>n v</string>
+			<string>A o</string>
+			<string>M V</string>
+			<string>y hyphen</string>
+			<string>n quotesingle</string>
+			<string>two.numr fraction</string>
+			<string>four five</string>
+			<string>S A</string>
+			<string>R T</string>
+			<string>A u</string>
+			<string>A hyphen</string>
+			<string>g o</string>
+			<string>H colon</string>
+			<string>n period</string>
+			<string>period H</string>
+			<string>H O</string>
+			<string>K S</string>
+			<string>hyphen H</string>
+			<string>f u</string>
+			<string>d colon</string>
+			<string>r hyphen</string>
+			<string>O quotesingle</string>
+			<string>one.numr fraction</string>
+			<string>x a</string>
+			<string>r b</string>
+			<string>g u</string>
+			<string>c c</string>
+			<string>n o</string>
+			<string>T i</string>
+			<string>P U</string>
+			<string>u u</string>
+			<string>M H</string>
+			<string>r a</string>
+			<string>T S</string>
+			<string>hyphen n</string>
+			<string>r l</string>
+			<string>u l</string>
+			<string>f n</string>
+			<string>r g</string>
+			<string>o n</string>
+			<string>L H</string>
+			<string>f i</string>
+			<string>i n</string>
+			<string>f h</string>
+			<string>f b</string>
+			<string>s a</string>
+			<string>g g</string>
+			<string>g y</string>
+			<string>v p</string>
+			<string>v v</string>
+			<string>x x</string>
+			<string>o o</string>
+			<string>q u</string>
+			<string>k n</string>
+			<string>n n</string>
+			<string>s hyphen</string>
+			<string>G r</string>
+			<string>H J</string>
+			<string>L S</string>
+			<string>H T</string>
+			<string>T T</string>
+			<string>H V</string>
+			<string>V V</string>
+			<string>A H</string>
+			<string>A A</string>
+			<string>H Y</string>
+			<string>X X</string>
+			<string>K H</string>
+			<string>O O</string>
+			<string>H M</string>
+			<string>H H</string>
+			<string>S hyphen</string>
+		</array>
+		<key>KernOnUserSetAutopairs</key>
+		<array>
+			<string>f ocircumflexdotbelow</string>
+			<string>f ocircumflexgrave</string>
+			<string>f ocircumflexhookabove</string>
+			<string>f ocircumflextilde</string>
+			<string>f ohorndotbelow</string>
+			<string>f ohorngrave</string>
+			<string>f ohornhookabove</string>
+			<string>f ohorntilde</string>
+			<string>three.numr fraction</string>
+			<string>four.numr fraction</string>
+			<string>five.numr fraction</string>
+			<string>six.numr fraction</string>
+			<string>seven.numr fraction</string>
+			<string>eight.numr fraction</string>
+			<string>nine.numr fraction</string>
+			<string>fraction two.dnom</string>
+			<string>fraction three.dnom</string>
+			<string>fraction four.dnom</string>
+			<string>fraction five.dnom</string>
+			<string>fraction six.dnom</string>
+			<string>fraction seven.dnom</string>
+			<string>fraction eight.dnom</string>
+			<string>fraction nine.dnom</string>
+		</array>
+	</dict>
+</dict>
+</plist>

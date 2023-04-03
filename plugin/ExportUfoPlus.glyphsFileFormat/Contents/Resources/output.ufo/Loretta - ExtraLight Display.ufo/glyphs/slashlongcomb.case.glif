@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashlongcomb.case" format="2">
+	<advance width="637"/>
+	<anchor x="319" y="349" name="_center"/>
+	<outline>
+		<contour>
+			<point x="45" y="19" type="line"/>
+			<point x="56" y="10" type="line"/>
+			<point x="592" y="679" type="line"/>
+			<point x="581" y="687" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-13 07:02:31 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=45</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+		</dict>
+	</lib>
+</glyph>

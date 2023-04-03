@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteright" format="2">
+	<advance width="183"/>
+	<outline>
+		<contour>
+			<point x="97" y="527" type="line"/>
+			<point x="147" y="545"/>
+			<point x="182" y="600"/>
+			<point x="182" y="652" type="curve" smooth="yes"/>
+			<point x="182" y="699"/>
+			<point x="155" y="730"/>
+			<point x="123" y="730" type="curve" smooth="yes"/>
+			<point x="101" y="730"/>
+			<point x="78" y="715"/>
+			<point x="78" y="689" type="curve" smooth="yes"/>
+			<point x="78" y="638"/>
+			<point x="139" y="646"/>
+			<point x="139" y="604" type="curve" smooth="yes"/>
+			<point x="139" y="580"/>
+			<point x="117" y="560"/>
+			<point x="87" y="546" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>quotes</string>
+					<key>R</key>
+					<string>quotes</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

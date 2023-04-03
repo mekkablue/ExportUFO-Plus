@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="2">
+	<advance width="1095"/>
+	<outline>
+		<contour>
+			<point x="295" y="-13" type="line"/>
+			<point x="349" y="-13"/>
+			<point x="395" y="2" name="❌"/>
+			<point x="435" y="38" type="curve"/>
+			<point x="567" y="458" type="line"/>
+			<point x="715" y="-13" type="line"/>
+			<point x="769" y="-13"/>
+			<point x="815" y="2" name="❌"/>
+			<point x="855" y="38" type="curve"/>
+			<point x="1073" y="692" type="line" name="_corner00"/>
+			<point x="992" y="692" type="line" name="_corner01"/>
+			<point x="839" y="178" type="line"/>
+			<point x="833" y="178" type="line"/>
+			<point x="673" y="694" type="line"/>
+			<point x="633" y="692"/>
+			<point x="594" y="684"/>
+			<point x="565" y="669" type="curve"/>
+			<point x="419" y="168" type="line"/>
+			<point x="413" y="168" type="line"/>
+			<point x="258" y="692" type="line" name="_corner02"/>
+			<point x="73" y="692" type="line" name="_corner03"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>W</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

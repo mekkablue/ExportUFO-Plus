@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lib</key>
+	<dict>
+		<key>GSCornerRadius</key>
+		<integer>35</integer>
+		<key>KernOnIndependentPairs</key>
+		<array>
+			<string>T period</string>
+		</array>
+		<key>KernOnModels</key>
+		<array>
+			<string>V A</string>
+			<string>quotedbl A</string>
+			<string>L V</string>
+			<string>Y a</string>
+			<string>K v</string>
+			<string>Y A</string>
+			<string>V a</string>
+			<string>F Aacute</string>
+			<string>T hyphen</string>
+			<string>L Y</string>
+			<string>r period</string>
+			<string>n quotesingle</string>
+			<string>K O</string>
+			<string>r hyphen</string>
+			<string>A v</string>
+			<string>parenleft O</string>
+			<string>L T</string>
+			<string>zero.numr fraction</string>
+			<string>A T</string>
+			<string>F hyphen</string>
+			<string>n question</string>
+			<string>seven four</string>
+			<string>n v</string>
+			<string>V O</string>
+			<string>f o</string>
+			<string>x hyphen</string>
+			<string>A hyphen</string>
+			<string>x o</string>
+			<string>k o</string>
+			<string>H O</string>
+			<string>one.numr fraction</string>
+			<string>H hyphen</string>
+			<string>A o</string>
+			<string>n hyphen</string>
+			<string>A u</string>
+			<string>O quotesingle</string>
+			<string>r b</string>
+			<string>n o</string>
+			<string>seven.lf zero.lf</string>
+			<string>M V</string>
+			<string>g o</string>
+			<string>S v</string>
+			<string>i t</string>
+			<string>v a</string>
+			<string>q u</string>
+			<string>o n</string>
+			<string>K S</string>
+			<string>S A</string>
+			<string>i d</string>
+			<string>s hyphen</string>
+			<string>G r</string>
+			<string>R T</string>
+			<string>A t</string>
+			<string>u l</string>
+			<string>S hyphen</string>
+			<string>i u</string>
+			<string>o i</string>
+			<string>r a</string>
+			<string>g y</string>
+			<string>Z o</string>
+			<string>L H</string>
+			<string>P U</string>
+			<string>A S</string>
+			<string>f w</string>
+			<string>f i</string>
+			<string>i n</string>
+			<string>f h</string>
+			<string>f b</string>
+			<string>x x</string>
+			<string>g g</string>
+			<string>v p</string>
+			<string>v v</string>
+			<string>k n</string>
+			<string>o o</string>
+			<string>n n</string>
+			<string>T i</string>
+			<string>H J</string>
+			<string>L S</string>
+			<string>E H</string>
+			<string>H Y</string>
+			<string>Y Y</string>
+			<string>H T</string>
+			<string>T T</string>
+			<string>A H</string>
+			<string>A A</string>
+			<string>X X</string>
+			<string>K H</string>
+			<string>H V</string>
+			<string>V V</string>
+			<string>H H</string>
+			<string>H M</string>
+			<string>O O</string>
+			<string>V quotesingle</string>
+			<string>s a</string>
+			<string>M H</string>
+			<string>P T</string>
+		</array>
+		<key>KernOnUserSetAutopairs</key>
+		<array>
+			<string>f ocircumflexacute</string>
+			<string>fraction two.dnom</string>
+			<string>two.numr fraction</string>
+			<string>three.numr fraction</string>
+			<string>four.numr fraction</string>
+			<string>five.numr fraction</string>
+			<string>six.numr fraction</string>
+			<string>seven.numr fraction</string>
+			<string>eight.numr fraction</string>
+			<string>nine.numr fraction</string>
+			<string>fraction three.dnom</string>
+			<string>fraction four.dnom</string>
+			<string>fraction five.dnom</string>
+			<string>fraction six.dnom</string>
+			<string>fraction seven.dnom</string>
+			<string>fraction eight.dnom</string>
+			<string>fraction nine.dnom</string>
+			<string>F Abreveacute</string>
+			<string>F Abrevedotbelow</string>
+			<string>Adotbelow V</string>
+			<string>Adotbelow W</string>
+			<string>Adotbelow Uacute</string>
+			<string>Adotbelow Wacute</string>
+			<string>K Gdotaccent</string>
+			<string>K Ocircumflexdotbelow</string>
+			<string>Ohorn A</string>
+			<string>Ohorn Aacute</string>
+			<string>Ohorn Abreve</string>
+		</array>
+	</dict>
+</dict>
+</plist>

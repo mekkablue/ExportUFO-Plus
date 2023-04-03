@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordmasculine" format="2">
+	<advance width="319"/>
+	<unicode hex="00BA"/>
+	<outline>
+		<contour>
+			<point x="161" y="350" type="curve" smooth="yes"/>
+			<point x="229" y="350"/>
+			<point x="275" y="403"/>
+			<point x="275" y="480" type="curve" smooth="yes"/>
+			<point x="275" y="561"/>
+			<point x="223" y="610"/>
+			<point x="160" y="610" type="curve" smooth="yes"/>
+			<point x="90" y="610"/>
+			<point x="44" y="553"/>
+			<point x="44" y="479" type="curve" smooth="yes"/>
+			<point x="44" y="402"/>
+			<point x="93" y="350"/>
+		</contour>
+		<contour>
+			<point x="166" y="362" type="curve" smooth="yes"/>
+			<point x="121" y="362"/>
+			<point x="80" y="392"/>
+			<point x="80" y="485" type="curve" smooth="yes"/>
+			<point x="80" y="560"/>
+			<point x="107" y="597"/>
+			<point x="158" y="597" type="curve" smooth="yes"/>
+			<point x="204" y="597"/>
+			<point x="239" y="566"/>
+			<point x="239" y="474" type="curve" smooth="yes"/>
+			<point x="239" y="397"/>
+			<point x="214" y="362"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>o</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>o</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>superiors</string>
+					<key>R</key>
+					<string>superiors</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

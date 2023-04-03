@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four" format="2">
+	<advance width="528"/>
+	<outline>
+		<contour>
+			<point x="417" y="478" type="line"/>
+			<point x="358" y="478" type="line"/>
+			<point x="31" y="21" type="line"/>
+			<point x="41" y="0" type="line"/>
+			<point x="513" y="0" type="line"/>
+			<point x="513" y="47" type="line"/>
+			<point x="73" y="47" type="line"/>
+			<point x="87" y="29" type="line"/>
+			<point x="345" y="383" type="line"/>
+			<point x="347" y="383" type="line"/>
+			<point x="347" y="-208" type="line" name="_corner00"/>
+			<point x="417" y="-208" type="line" name="_corner01"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>four</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

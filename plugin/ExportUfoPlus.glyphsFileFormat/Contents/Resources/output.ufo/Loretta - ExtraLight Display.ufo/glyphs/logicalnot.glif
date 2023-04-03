@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="2">
+	<advance width="600"/>
+	<unicode hex="00AC"/>
+	<outline>
+		<contour>
+			<point x="440" y="152" type="line"/>
+			<point x="471" y="152" type="line"/>
+			<point x="471" y="352" type="line"/>
+			<point x="70" y="352" type="line"/>
+			<point x="70" y="322" type="line"/>
+			<point x="440" y="322" type="line" name="🧨"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-20 12:14:07 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

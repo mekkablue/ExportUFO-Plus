@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d" format="2">
+	<advance width="536"/>
+	<anchor x="286" y="0" name="bottom"/>
+	<anchor x="214" y="567" name="center"/>
+	<anchor x="286" y="800" name="top"/>
+	<anchor x="466" y="730" name="topright"/>
+	<outline>
+		<contour>
+			<point x="227" y="-11" type="curve" smooth="yes"/>
+			<point x="309" y="-11"/>
+			<point x="369" y="40"/>
+			<point x="406" y="108" type="curve"/>
+			<point x="394" y="96" type="line"/>
+			<point x="428" y="-12" type="line"/>
+			<point x="516" y="37" type="line"/>
+			<point x="516" y="47" type="line"/>
+			<point x="450" y="27"/>
+			<point x="441" y="83"/>
+			<point x="441" y="132" type="curve" smooth="yes"/>
+			<point x="441" y="730" type="line"/>
+			<point x="431" y="730" type="line"/>
+			<point x="316" y="682" type="line"/>
+			<point x="316" y="672" type="line"/>
+			<point x="370" y="687"/>
+			<point x="396" y="668"/>
+			<point x="396" y="617" type="curve" smooth="yes"/>
+			<point x="396" y="459" type="line"/>
+			<point x="363" y="480"/>
+			<point x="315" y="490"/>
+			<point x="273" y="490" type="curve" smooth="yes"/>
+			<point x="143" y="490"/>
+			<point x="46" y="393"/>
+			<point x="46" y="225" type="curve" smooth="yes"/>
+			<point x="46" y="79"/>
+			<point x="119" y="-11"/>
+		</contour>
+		<contour>
+			<point x="246" y="29" type="curve" smooth="yes"/>
+			<point x="149" y="29"/>
+			<point x="94" y="98"/>
+			<point x="94" y="232" type="curve" smooth="yes"/>
+			<point x="94" y="389"/>
+			<point x="169" y="475"/>
+			<point x="273" y="475" type="curve" smooth="yes"/>
+			<point x="327" y="475"/>
+			<point x="373" y="452"/>
+			<point x="396" y="411" type="curve"/>
+			<point x="396" y="119" type="line"/>
+			<point x="360" y="57"/>
+			<point x="307" y="29"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>d</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

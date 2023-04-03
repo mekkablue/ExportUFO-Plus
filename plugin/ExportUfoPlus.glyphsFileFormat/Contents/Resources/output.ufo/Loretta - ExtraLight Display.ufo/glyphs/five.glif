@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five" format="2">
+	<advance width="436"/>
+	<unicode hex="0035"/>
+	<outline>
+		<contour>
+			<point x="25" y="-220" type="line"/>
+			<point x="263" y="-183"/>
+			<point x="402" y="-57"/>
+			<point x="402" y="87" type="curve" smooth="yes"/>
+			<point x="402" y="184"/>
+			<point x="344" y="253"/>
+			<point x="239" y="253" type="curve" smooth="yes"/>
+			<point x="144" y="253"/>
+			<point x="87" y="199"/>
+			<point x="47" y="156" type="curve"/>
+			<point x="49" y="149" type="line"/>
+			<point x="77" y="446" type="line"/>
+			<point x="71" y="438" type="line"/>
+			<point x="358" y="438" type="line"/>
+			<point x="388" y="593" type="line"/>
+			<point x="380" y="593" type="line"/>
+			<point x="358" y="501"/>
+			<point x="329" y="478"/>
+			<point x="254" y="478" type="curve" smooth="yes"/>
+			<point x="68" y="478" type="line"/>
+			<point x="38" y="143" type="line"/>
+			<point x="44" y="138" type="line"/>
+			<point x="89" y="188"/>
+			<point x="143" y="223"/>
+			<point x="206" y="223" type="curve" smooth="yes"/>
+			<point x="290" y="223"/>
+			<point x="346" y="167"/>
+			<point x="346" y="75" type="curve" smooth="yes"/>
+			<point x="346" y="-53"/>
+			<point x="230" y="-178"/>
+			<point x="24" y="-212" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 07:30:54 +0000</string>
+			<key>de.kutilek.scrawl.data</key>
+			<data>
+				iVBORw0KGgoAAAANSUhEUgAAAZAAAAJYCAAAAABph+9UAAAAOGVYSWZNTQAq
+				AAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAGQoAMABAAAAAEA
+				AAJYAAAAAGcInEIAABFmSURBVHgB7Z1rjFXlFYbXyHAPFVQqoHgDUy94Qwu2
+				eBlv1Iolo4lNjW1jU0GtaZomTTRNtf1RGxPtD42GlHpvUWvQao221giVSGul
+				Rq1XlFIvgxpAhBJUBKEDBkLizOxz4Nn7rLX26x/GOXvevb7n+db3nbPn7DNt
+				m03/eSKwm6diVIuZhDibBRIiIc4IOCtHHSIhzgg4K0cdIiHOCDgrRx0iIc4I
+				OCtHHSIhzgg4K0cdIiHOCDgrRx0iIc4IOCtHHSIhzgg4K0cdIiHOCDgrRx0i
+				Ic4IOCtHHSIhzgg4K0cdIiHOCDgrRx0iIc4IOCtHHSIhzgg4K0cdIiHOCDgr
+				Rx0iIc4IOCtHHSIhzgg4K0cdIiHOCDgrRx0iIc4IOCtHHSIhzgg4K0cdIiHO
+				CDgrp9QOef9TZ6MNUE6pQm5ZEoCAsxLb9PFMvoyU2iG+hhqjmhKEbFoTY+g+
+				qyxByMJRd2zwOdgIVZUg5NibF5/1vwhjd1ljKZv65h89/pexLofrv6gSOsSs
+				7YaZxz/rf+wuKyylQ7pH+sCM26e5HLD3okrpkO5Bdz580SzvY3dZX1kdYvbG
+				mWdf2+ZyzK6LKk+IfXDOXr8f5HrwHosra8nqHuuIvw7sWOFxzK5rKlGIDZgz
+				9fjXXI/eYXElLllbRnv75XNPdDhqxyWVLMQeP//68x0P319pZQuxl866+Kf+
+				hu23otKF2HvTJs5q9wvAW2VlbuqfjXXUgnen6Vpjw97LF2JDHxx/QlfDBdX9
+				wAqEWL+bLjz++bqDbnT85e8hWyu5/+LfndloSfU+rooO6SZ87kMX/qbeoBsd
+				fUUdYrb0653X6FpjsZbKhNiqztF36FpjoZGKlqzuOvZ4bLfT3i+sp/YHVCfE
+				Bt7VMVlvZSyacVW+hm67+qAp908pqqjmj1e3h2wF/dgFN36z5sQLhl+xEHth
+				2mWXF5RU74cr3EO2gj7iqbuerDfxgtFX3SFmK0684MqCour8cJWb+mecRz4x
+				abx+Z9XrnKu+Q8xe6nhAz7V6M1L1HrKljsPv7pzfWz21/34rOsRs1YQnD6o9
+				+p4BtKJDui+j/KJjac/11P671W/qW5HPtI6/qUd6mn0tEmIy0pON7u+1SoiM
+				eBMiIz0baVmHmIz0aKSFQmSkJyOtFCIjPRhpqRAZ+byR1gqRkc8ZabGQLUae
+				Gfm5qmr8jdZcy9oR+OyFt7R6VuxYTqu/bs21rB1HPXPI5I92/P+af936DjH7
+				9uY5Nbeww/Bb3yFmNy++doeKav6lhw6xrkm3fa3mHrYP34UQ+3vnwoO3l1Tv
+				LzwsWWZfvXr62np72D56Hx1idtlbf9LNClus+OgQs+vXXLV9ktT6Cy9C2u+7
+				875ai9g2eC9Lltlzp88/YltVNf7XS4eYHX3TdN3P0/3xiI4+2fqKRY/qqpYn
+				IZvOPvj6Gi9Wnw3dz5LV/Yzv7j/fXnshnjrE7NWTHppccyWeOsTskNvOfVdC
+				PBGYdtk56z3VU30tvpas7vGfN+zW6ik4OqOvJasbzB3P3OAIT/WluOsQe3PS
+				PadUz8HNGf0JsSfOe/oAN3wqL8TdkmV28lXT11XOwc0JHXaI2ffXzHUDqOpC
+				HHaI2axlv6yag5vzuewQe++4Wd9wg6jaQnwKsUVnLTi0WhBezuZyyTL78q+n
+				r/aCqNo6nHaI2Y9fecTpZClXkNtBX7fxinJH7jTdrZB+98692ymzUstyu2SZ
+				vXjKoxNLHbvLcLcdYjZhdudyl8xKLcpxh5j9fN68/qWO3mG4ayGbO8fU7o8h
+				Ol6yut+jNOeJ2n1ivOsOMfvPV+4/weG6UmJJrjvEbNyc894ucfQOo50LsTN+
+				0lmvW0KdL1ndU7hmt4R675Da3RLqv0NqdktoACH1uiXU/5JVs1tCI3SI2Q+6
+				HqzLLaEROqRWt4TGENJ/bm1uCY2xZJk9O3VePW4JjdEhZsfcWJNbQqN0iFlN
+				bgmN0iFm1wyqxaX4OB1ii6e8MNrh5Vm4pEBC7GdL7oFH7zAukpCPD519hkOE
+				bElx9hCzQbMuyX9HaCQhdubEX7HT0WFapCXL7J0jnsr+UYChOsTGXHmpw0mN
+				lhRLiP1wZfY3/MZassz+ec4ru6Mz0ltYNCF2SfuN3hii9YQTsvpLjxyLEnAW
+				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
+			</data>
+			<key>de.kutilek.scrawl.rect</key>
+			<array>
+				<integer>-100</integer>
+				<integer>-300</integer>
+				<integer>800</integer>
+				<integer>1200</integer>
+			</array>
+			<key>de.kutilek.scrawl.size</key>
+			<integer>2</integer>
+			<key>de.kutilek.scrawl.unit</key>
+			<integer>2</integer>
+		</dict>
+	</lib>
+</glyph>

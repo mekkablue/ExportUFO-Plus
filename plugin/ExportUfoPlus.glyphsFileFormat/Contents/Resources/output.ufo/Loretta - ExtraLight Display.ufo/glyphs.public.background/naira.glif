@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira" format="2">
+	<advance width="756"/>
+	<outline>
+		<contour>
+			<point x="568" y="80" type="line" name="🔥"/>
+			<point x="578" y="141" type="line" name="🧨"/>
+			<point x="566" y="141" type="line"/>
+			<point x="208" y="650" type="line"/>
+			<point x="45" y="650" type="line"/>
+			<point x="45" y="618" type="line"/>
+			<point x="78" y="614"/>
+			<point x="106" y="607"/>
+			<point x="130" y="593" type="curve"/>
+			<point x="130" y="0" type="line" name="_corner00"/>
+			<point x="170" y="0" type="line" name="_corner01"/>
+			<point x="170" y="559" type="line"/>
+			<point x="568" y="0" type="line" name="🔥"/>
+			<point x="608" y="0" type="line"/>
+			<point x="608" y="650" type="line" name="_corner02"/>
+			<point x="568" y="650" type="line" name="_corner03"/>
+		</contour>
+		<contour>
+			<point x="690" y="298" type="line"/>
+			<point x="60" y="298" type="line"/>
+			<point x="60" y="266" type="line"/>
+			<point x="690" y="266" type="line"/>
+		</contour>
+		<contour>
+			<point x="690" y="398" type="line"/>
+			<point x="60" y="398" type="line"/>
+			<point x="60" y="366" type="line"/>
+			<point x="690" y="366" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

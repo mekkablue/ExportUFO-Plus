@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="2">
+	<advance width="183"/>
+	<unicode hex="2044"/>
+	<outline>
+		<contour>
+			<point x="-150" y="-40" type="line"/>
+			<point x="-132" y="-40" type="line"/>
+			<point x="333" y="722" type="line"/>
+			<point x="315" y="722" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-29 14:41:13 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>fraction</string>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>fraction</string>
+					<key>R</key>
+					<string>fraction</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

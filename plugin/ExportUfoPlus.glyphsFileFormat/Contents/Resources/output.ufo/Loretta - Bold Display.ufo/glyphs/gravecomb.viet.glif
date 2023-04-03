@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb.viet" format="2">
+	<advance width="403"/>
+	<anchor x="237" y="490" name="_top"/>
+	<anchor x="202" y="704" name="top"/>
+	<outline>
+		<contour>
+			<point x="287" y="533" type="line"/>
+			<point x="304" y="546" type="line"/>
+			<point x="253" y="684" type="line"/>
+			<point x="112" y="684" type="line"/>
+			<point x="112" y="666" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-16 09:33:13 +0000</string>
+			<key>public.markColor</key>
+			<string>0.85,0.26,0.06,1</string>
+		</dict>
+	</lib>
+</glyph>

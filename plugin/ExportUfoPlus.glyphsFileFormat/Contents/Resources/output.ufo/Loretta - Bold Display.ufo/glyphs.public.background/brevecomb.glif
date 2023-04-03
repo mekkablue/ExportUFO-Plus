@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb" format="2">
+	<advance width="416"/>
+	<outline>
+		<contour>
+			<point x="207" y="547" type="curve" smooth="yes"/>
+			<point x="295" y="547"/>
+			<point x="336" y="600"/>
+			<point x="333" y="693" type="curve"/>
+			<point x="277" y="693" type="line"/>
+			<point x="271" y="642"/>
+			<point x="242" y="625"/>
+			<point x="207" y="625" type="curve" smooth="yes"/>
+			<point x="172" y="625"/>
+			<point x="143" y="642"/>
+			<point x="137" y="693" type="curve"/>
+			<point x="81" y="693" type="line"/>
+			<point x="78" y="600"/>
+			<point x="119" y="547"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

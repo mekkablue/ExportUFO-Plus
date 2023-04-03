@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="euro" format="2">
+	<advance width="607"/>
+	<outline>
+		<contour>
+			<point x="373" y="-12" type="curve" smooth="yes"/>
+			<point x="448" y="-12"/>
+			<point x="519" y="16"/>
+			<point x="575" y="89" type="curve"/>
+			<point x="553" y="113" type="line"/>
+			<point x="519" y="73"/>
+			<point x="471" y="41"/>
+			<point x="399" y="41" type="curve" smooth="yes"/>
+			<point x="259" y="41"/>
+			<point x="169" y="161"/>
+			<point x="169" y="337" type="curve" smooth="yes"/>
+			<point x="169" y="514"/>
+			<point x="260" y="618"/>
+			<point x="385" y="618" type="curve" smooth="yes"/>
+			<point x="454" y="618"/>
+			<point x="509" y="587"/>
+			<point x="521" y="463" type="curve"/>
+			<point x="552" y="463" type="line"/>
+			<point x="552" y="628" type="line"/>
+			<point x="509" y="648"/>
+			<point x="448" y="660"/>
+			<point x="396" y="660" type="curve" smooth="yes"/>
+			<point x="216" y="660"/>
+			<point x="84" y="514"/>
+			<point x="84" y="318" type="curve" smooth="yes"/>
+			<point x="84" y="131"/>
+			<point x="203" y="-12"/>
+		</contour>
+		<contour>
+			<point x="20" y="264" type="line"/>
+			<point x="460" y="264" type="line"/>
+			<point x="460" y="296" type="line"/>
+			<point x="20" y="296" type="line"/>
+		</contour>
+		<contour>
+			<point x="20" y="366" type="line"/>
+			<point x="460" y="366" type="line"/>
+			<point x="460" y="398" type="line"/>
+			<point x="20" y="398" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>symbols</string>
+					<key>R</key>
+					<string>symbols</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

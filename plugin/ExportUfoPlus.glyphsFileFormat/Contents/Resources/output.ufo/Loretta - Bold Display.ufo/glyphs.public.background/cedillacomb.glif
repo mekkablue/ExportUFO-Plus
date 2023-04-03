@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedillacomb" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="295" y="-220" type="curve" smooth="yes"/>
+			<point x="358" y="-220"/>
+			<point x="395" y="-178"/>
+			<point x="395" y="-131" type="curve" smooth="yes"/>
+			<point x="395" y="-85"/>
+			<point x="357" y="-51"/>
+			<point x="274" y="-39" type="curve"/>
+			<point x="281" y="0" type="line"/>
+			<point x="263" y="0" type="line"/>
+			<point x="244" y="-99" type="line"/>
+			<point x="287" y="-103"/>
+			<point x="321" y="-120"/>
+			<point x="321" y="-153" type="curve" smooth="yes"/>
+			<point x="321" y="-177"/>
+			<point x="302" y="-192"/>
+			<point x="275" y="-192" type="curve" smooth="yes"/>
+			<point x="255" y="-192"/>
+			<point x="230" y="-184"/>
+			<point x="200" y="-152" type="curve"/>
+			<point x="186" y="-168" type="line"/>
+			<point x="209" y="-197"/>
+			<point x="247" y="-220"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

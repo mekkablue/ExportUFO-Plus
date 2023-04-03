@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb" format="2">
+	<advance width="289"/>
+	<unicode hex="030A"/>
+	<anchor x="145" y="490" name="_top"/>
+	<anchor x="145" y="704" name="top"/>
+	<outline>
+		<contour>
+			<point x="143" y="543" type="curve" smooth="yes"/>
+			<point x="197" y="543"/>
+			<point x="236" y="582"/>
+			<point x="236" y="632" type="curve" smooth="yes"/>
+			<point x="236" y="681"/>
+			<point x="197" y="720"/>
+			<point x="143" y="720" type="curve" smooth="yes"/>
+			<point x="90" y="720"/>
+			<point x="51" y="681"/>
+			<point x="51" y="632" type="curve" smooth="yes"/>
+			<point x="51" y="582"/>
+			<point x="90" y="543"/>
+		</contour>
+		<contour>
+			<point x="143" y="569" type="curve" smooth="yes"/>
+			<point x="105" y="569"/>
+			<point x="80" y="597"/>
+			<point x="80" y="632" type="curve" smooth="yes"/>
+			<point x="80" y="666"/>
+			<point x="105" y="695"/>
+			<point x="143" y="695" type="curve" smooth="yes"/>
+			<point x="183" y="695"/>
+			<point x="206" y="666"/>
+			<point x="206" y="632" type="curve" smooth="yes"/>
+			<point x="206" y="598"/>
+			<point x="183" y="569"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-28 05:54:46 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l" format="2">
+	<advance width="256"/>
+	<unicode hex="006C"/>
+	<anchor x="137" y="0" name="bottom"/>
+	<anchor x="154" y="400" name="center"/>
+	<anchor x="137" y="640" name="top"/>
+	<anchor x="177" y="730" name="topright"/>
+	<outline>
+		<contour>
+			<point x="107" y="0" type="line" name="_corner01"/>
+			<point x="152" y="0" type="line" name="_corner00"/>
+			<point x="152" y="730" type="line"/>
+			<point x="142" y="730" type="line"/>
+			<point x="27" y="682" type="line"/>
+			<point x="27" y="672" type="line"/>
+			<point x="81" y="687"/>
+			<point x="107" y="668"/>
+			<point x="107" y="622" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-07-20 11:56:00 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.layer.corners</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>origin</key>
+					<string>_corner00</string>
+					<key>scale</key>
+					<string>{-1, 1}</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>_corner.serifleft</string>
+					<key>origin</key>
+					<string>_corner01</string>
+					<key>type</key>
+					<string>Corner</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>h</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>l</string>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

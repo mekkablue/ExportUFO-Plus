@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelowcomb.case" format="2">
+	<advance width="262"/>
+	<outline>
+		<component base="dotaccentcomb" xOffset="-21" yOffset="-772"/>
+	</outline>
+</glyph>

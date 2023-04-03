@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>ExportIcon</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.rafalbuchner.ExportUfoPlus</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ExportUfoPlus</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string> <!-- 1.0 -->
+	<key>CFBundleVersion</key>
+	<string>003</string> <!-- 123 -->
+	<key>UpdateFeedURL</key>
+	<string>____OnlineUrlToThisPlist____</string>
+	<key>productPageURL</key>
+	<string>____ProductPageURL____</string>
+	<key>productReleaseNotes</key>
+	<string>____LatestReleaseNotes____</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright, Rafał Buchner, 2022</string>
+	<key>NSPrincipalClass</key>
+	<string>ExportUfoPlus</string>
+	<key>PyMainFileNames</key>
+	<array>
+		<string>plugin.py</string>
+	</array>
+</dict>
+</plist>

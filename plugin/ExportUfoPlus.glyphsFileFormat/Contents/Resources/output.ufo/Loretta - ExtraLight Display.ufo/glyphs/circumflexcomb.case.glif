@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb.case" format="2">
+	<advance width="380"/>
+	<anchor x="190" y="640" name="_top"/>
+	<anchor x="190" y="865" name="top"/>
+	<anchor x="191" y="785" name="top_tilde"/>
+	<anchor x="328" y="741" name="top_viet"/>
+	<anchor x="309" y="741" name="top_viet2"/>
+	<outline>
+		<contour>
+			<point x="82" y="744" type="line"/>
+			<point x="192" y="795" type="line"/>
+			<point x="298" y="744" type="line"/>
+			<point x="305" y="752" type="line"/>
+			<point x="194" y="866" type="line"/>
+			<point x="190" y="866" type="line"/>
+			<point x="75" y="752" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-16 09:56:22 +0000</string>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=+75</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|</string>
+		</dict>
+	</lib>
+</glyph>
