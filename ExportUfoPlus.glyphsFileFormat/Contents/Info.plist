@@ -24,17 +24,17 @@
 	<key>CFBundleName</key>
 	<string>ExportUfoPlus</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string> <!-- 1.0 -->
+	<string>1.0.1</string> <!-- 1.0 -->
 	<key>CFBundleVersion</key>
-	<string>003</string> <!-- 123 -->
+	<string>4</string> <!-- 123 -->
 	<key>UpdateFeedURL</key>
-	<string>____OnlineUrlToThisPlist____</string>
+	<string>https://raw.githubusercontent.com/mekkablue/ExportUFO-Plus/master/ExportUFOPlus.glyphsFileFormat/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>____ProductPageURL____</string>
+	<string>https://github.com/mekkablue/ExportUFO-Plus</string>
 	<key>productReleaseNotes</key>
-	<string>____LatestReleaseNotes____</string>
+	<string>Removed useless fontParts import. Thx Octavio.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, Rafał Buchner, 2022</string>
+	<string>Copyright, Rafał Buchner and Rainer Scheichelbauer, 2022-2023</string>
 	<key>NSPrincipalClass</key>
 	<string>ExportUfoPlus</string>
 	<key>PyMainFileNames</key>

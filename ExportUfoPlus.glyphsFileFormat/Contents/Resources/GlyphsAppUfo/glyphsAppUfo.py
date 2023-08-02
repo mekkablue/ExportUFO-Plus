@@ -4,7 +4,7 @@ import re
 import os
 import tempfile
 import shutil
-from fontParts.world import OpenFont as OpenUfo
+# from fontParts.world import OpenFont as OpenUfo
 from AppKit import NSClassFromString, NSURL
 from fontTools.designspaceLib import (
 	DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, RuleDescriptor)
