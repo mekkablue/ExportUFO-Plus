@@ -46,7 +46,7 @@ class ExportUfoPlus(FileFormatPlugin):
 
 		except Exception as error:
 			import traceback
-			traceback.print_tb(error)
+			print(traceback.format_exc())
 			return (False, 'No file chosen')
 
 	@objc.python_method
