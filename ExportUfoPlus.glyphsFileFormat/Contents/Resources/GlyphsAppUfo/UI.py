@@ -26,8 +26,10 @@ if _DEBUG_:
 class UfoMasterExporterView(vl.Group):
 	selectionTitle = "Select masters to export as UFO:"
 	infoText = "Writes all selected masters as separate .ufo files.\nAll files at the chosen location will be overwritten"
-	kerningDataOptions = ["... and export kerning as a part of UFO data",
-						  "export kerning as a part of feature text"]
+	kerningDataOptions = [
+		"... and export kerning as a part of UFO data",
+		"export kerning as a part of feature text"
+	]
 
 	def __init__(self, posSize, plugin, ufoFactory):
 		self.ufoFactory = ufoFactory
@@ -37,27 +39,27 @@ class UfoMasterExporterView(vl.Group):
 		super(UfoMasterExporterView, self).__init__(posSize)
 		x, y, p = (10, 10, 10)
 		btnH, txtH = (22, 17)
-		self.txt01 = vl.TextBox((p*2, y, -p*2, txtH), self.selectionTitle)
-		y += txtH + p*2
-		endOfList = -(btnH+p)*4-txtH*3
-		self.exportUfoList = vl.List((p*2, y, -p*2, endOfList), [], selectionCallback=self.selectionCallback)
-		y = endOfList+p
+		self.txt01 = vl.TextBox((p * 2, y, -p * 2, txtH), self.selectionTitle)
+		y += txtH + p * 2
+		endOfList = -(btnH + p) * 4 - txtH * 3
+		self.exportUfoList = vl.List((p * 2, y, -p * 2, endOfList), [], selectionCallback=self.selectionCallback)
+		y = endOfList + p
 		self.use_production_names = vl.CheckBox(
-			(p*2, y, -p*2, btnH), "Convert glyph names to production names", callback=self.SavePreferences)
+			(p * 2, y, -p * 2, btnH), "Convert glyph names to production names", callback=self.SavePreferences)
 		y += btnH + p
 		self.decompose_smart_stuff = vl.CheckBox(
-			(p*2, y, -p*2, btnH), "Decompose smart stuff ...", callback=self.SavePreferences)
-		y += btnH #+ p
+			(p * 2, y, -p * 2, btnH), "Decompose smart stuff ...", callback=self.SavePreferences)
+		y += btnH  #+ p
 		self.kerningDataTypeRadio = vl.RadioGroup(
-			(p*3, y, -p*2, btnH*2), self.kerningDataOptions, callback=self.SavePreferences)
+			(p * 3, y, -p * 2, btnH * 2), self.kerningDataOptions, callback=self.SavePreferences)
 		self.kerningDataTypeRadio.set(0)
-		y += 2*btnH + p
-		self.txt02 = vl.TextBox((p*2, y, -p*2, -p), self.infoText)
+		y += 2 * btnH + p
+		self.txt02 = vl.TextBox((p * 2, y, -p * 2, -p), self.infoText)
 
 		if not self.LoadPreferences():
 			print("Note: 'UfoGlyphsOutput.UfoMasterExporterView' could not load preferences. Will resort to defaults")
-	
-	def SavePreferences( self, sender ):
+
+	def SavePreferences(self, sender):
 		# update radio buttons as this is the callback for Decompose Smart Stuff:
 		self.kerningDataTypeRadio.enable(self.decompose_smart_stuff.get())
 		#if self.decompose_smart_stuff.get():
@@ -74,21 +76,21 @@ class UfoMasterExporterView(vl.Group):
 			Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio"] = self.kerningDataTypeRadio.get()
 		except:
 			return False
-			
+
 		return True
 
-	def LoadPreferences( self ):
+	def LoadPreferences(self):
 		try:
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.use_production_names", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.decompose_smart_stuff", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio", 0)
-			self.use_production_names.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.use_production_names"] )
-			self.decompose_smart_stuff.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.decompose_smart_stuff"] )
-			self.kerningDataTypeRadio.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio"] )
+			self.use_production_names.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.use_production_names"])
+			self.decompose_smart_stuff.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.decompose_smart_stuff"])
+			self.kerningDataTypeRadio.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio"])
 			self.kerningDataTypeRadio.enable(self.decompose_smart_stuff.get())
 		except:
 			return False
-			
+
 		return True
 
 	def setFont(self, font):
@@ -128,12 +130,12 @@ class UfoMasterExporterView(vl.Group):
 		if _DEBUG_:
 			print(f"> DEBUG: {self.__class__} export font <{self.font}>")
 
-		if not self.SavePreferences( None ):
+		if not self.SavePreferences(None):
 			print("Note: 'UfoGlyphsOutput.UfoMasterExporterView' could not write preferences.")
 
 		#self.exportUfoList.enable(False)
 		#self.exportUfoList.enable(True)
-		
+
 		if len(self.plugin.masterIndexes) == 0:
 			Message("No masters selected.", "Error")
 			return (False, None)
@@ -174,17 +176,20 @@ class UfoDesignspaceExporterView(vl.Group):
 		super(UfoDesignspaceExporterView, self).__init__(posSize)
 		x, y, p = (10, 10, 10)
 		btnH, txtH = (22, 17)
-		self.txt01 = vl.TextBox((p*2, y, -p*2, txtH), self.selectionTitle)
+		self.txt01 = vl.TextBox((p * 2, y, -p * 2, txtH), self.selectionTitle)
 		y += txtH + p
-		self.radioGroup = vl.RadioGroup((p*2, y, -p*2, btnH*3),
-										self.options,
-										callback=self.radioGroupCallback
-										)
-		y += btnH*3+p*2
+		self.radioGroup = vl.RadioGroup(
+			(p * 2, y, -p * 2, btnH * 3),
+			self.options,
+			callback=self.radioGroupCallback
+		)
+		y += btnH * 3+p * 2
 
 		# in tooltip list all the functionalities
-		self.is_vf = vl.CheckBox((p*2, y, -p*2, btnH),
-								 "Prepare designspace file for variable font.", callback=self.SavePreferences)
+		self.is_vf = vl.CheckBox(
+			(p * 2, y, -p * 2, btnH),
+			"Prepare designspace file for variable font.", callback=self.SavePreferences
+		)
 		toolTipMessage = """Prepares file and variable style naming for variable fonts inside the designspace file.
 Data for the preparation is being taken from the variable font settings in the "Exports" panel.
 """
@@ -192,40 +197,41 @@ Data for the preparation is being taken from the variable font settings in the "
 		y += btnH + p
 
 		self.mute_not_exporting_glyphs = vl.CheckBox(
-			(p*2, y, -p*2, btnH), "mute non-exporting glyphs in designspace file", callback=self.SavePreferences)
+			(p * 2, y, -p * 2, btnH), "mute non-exporting glyphs in designspace file", callback=self.SavePreferences)
 		toolTipMessage = """Sets glyphs with the "export" option disabled to muted inside the designspace file."""
 		self.mute_not_exporting_glyphs._nsObject.setToolTip_(toolTipMessage)
 		y += btnH + p
 		# https://glyphsapp.com/learn/additional-masters-for-individual-glyphs-the-brace-trick
 		self.delete_unnecessary_glyphs_in_special_masters = vl.CheckBox(
-			(p*2, y, -p*2, 2*btnH), "Delete unnecessary glyphs in special intermediate masters\n(created due to brace layers).", callback=self.SavePreferences)
-		toolTipMessage = """Deletes all glyphs from the UFO master that are not affected by brace layers in the font. 
+			(p * 2, y, -p * 2, 2 * btnH), "Delete unnecessary glyphs in special intermediate masters\n(created due to brace layers).", callback=self.SavePreferences)
+		toolTipMessage = """Deletes all glyphs from the UFO master that are not affected by brace layers in the font.
 UFO masters are allowed to have differing numbers of glyphs, giving more control over the interpolation.
 """
 		self.delete_unnecessary_glyphs_in_special_masters._nsObject.setToolTip_(
-			toolTipMessage)
-		y += 2*btnH+p
+			toolTipMessage
+		)
+		y += 2 * btnH + p
 
-		self.line = vl.HorizontalLine((p*2, y, -p*2, 2))
-		y += 2+p
-		endOfList = -(btnH+p)*4-txtH*3
-		y = endOfList+p
+		self.line = vl.HorizontalLine((p * 2, y, -p * 2, 2))
+		y += 2 + p
+		endOfList = -(btnH + p) * 4 - txtH * 3
+		y = endOfList + p
 		self.use_production_names = vl.CheckBox(
-			(p*2, y, -p*2, btnH), "Convert Glyph Names to Production Names", callback=self.SavePreferences)
+			(p * 2, y, -p * 2, btnH), "Convert Glyph Names to Production Names", callback=self.SavePreferences)
 		y += btnH + p
 		self.decompose_smart_stuff = vl.CheckBox(
-			(p*2, y, -p*2, btnH), "Decompose Smart Stuff ...", callback=self.SavePreferences)
-		y += btnH #+ p
+			(p * 2, y, -p * 2, btnH), "Decompose Smart Stuff ...", callback=self.SavePreferences)
+		y += btnH  #+ p
 		self.kerningDataTypeRadio = vl.RadioGroup(
-			(p*3, y, -p*2, btnH*2), self.kerningDataOptions, callback=self.SavePreferences)
+			(p * 3, y, -p * 2, btnH * 2), self.kerningDataOptions, callback=self.SavePreferences)
 		self.kerningDataTypeRadio.set(0)
-		y += 2*btnH + p
-		self.txt02 = vl.TextBox((p*2, y, -p*2, -p), self.infoText)
+		y += 2 * btnH + p
+		self.txt02 = vl.TextBox((p * 2, y, -p * 2, -p), self.infoText)
 
 		if not self.LoadPreferences():
 			print("Note: 'UfoGlyphsOutput.UfoMasterExporterView' could not load preferences. Will resort to defaults")
 
-	def updateControls( self ):
+	def updateControls(self):
 		#self.kerningDataTypeRadio.enable(self.decompose_smart_stuff.get())
 		if self.options[self.radioGroup.get()] == "designspace file only":
 			self.delete_unnecessary_glyphs_in_special_masters.enable(False)
@@ -239,7 +245,7 @@ UFO masters are allowed to have differing numbers of glyphs, giving more control
 			self.decompose_smart_stuff.enable(True)
 			self.kerningDataTypeRadio.enable(self.decompose_smart_stuff.get())
 
-	def SavePreferences( self, sender ):
+	def SavePreferences(self, sender):
 		self.updateControls()
 		#self.kerningDataTypeRadio.enable(self.decompose_smart_stuff.get())
 		try:
@@ -253,30 +259,30 @@ UFO masters are allowed to have differing numbers of glyphs, giving more control
 			Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio"] = self.kerningDataTypeRadio.get()
 		except:
 			return False
-			
+
 		return True
 
-	def LoadPreferences( self ):
+	def LoadPreferences(self):
 		try:
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.radioGroup", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.is_vf", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.mute_not_exporting_glyphs", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.delete_unnecessary_glyphs_in_special_masters", 0)
-			self.radioGroup.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.radioGroup"] )
-			self.is_vf.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.is_vf"] )
-			self.mute_not_exporting_glyphs.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.mute_not_exporting_glyphs"] )
-			self.delete_unnecessary_glyphs_in_special_masters.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.delete_unnecessary_glyphs_in_special_masters"] )
+			self.radioGroup.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.radioGroup"])
+			self.is_vf.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.is_vf"])
+			self.mute_not_exporting_glyphs.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.mute_not_exporting_glyphs"])
+			self.delete_unnecessary_glyphs_in_special_masters.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoDesignspaceExporterView.delete_unnecessary_glyphs_in_special_masters"])
 			#
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.use_production_names", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.decompose_smart_stuff", 0)
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio", 0)
-			self.use_production_names.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.use_production_names"] )
-			self.decompose_smart_stuff.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.decompose_smart_stuff"] )
-			self.kerningDataTypeRadio.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio"] )
+			self.use_production_names.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.use_production_names"])
+			self.decompose_smart_stuff.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.decompose_smart_stuff"])
+			self.kerningDataTypeRadio.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.kerningDataTypeRadio"])
 			self.kerningDataTypeRadio.enable(self.decompose_smart_stuff.get())
 		except:
 			return False
-			
+
 		return True
 
 	def radioGroupCallback(self, sender):
@@ -369,7 +375,7 @@ class UfoInstanceExporterView(UfoMasterExporterView):
 		if _DEBUG_:
 			print(f"> DEBUG: {self.__class__} export font {self.font}")
 
-		if not self.SavePreferences( None ):
+		if not self.SavePreferences(None):
 			print("Note: 'UfoGlyphsOutput.UfoInstanceExporterView' could not write preferences.")
 
 		if len(self.plugin.masterIndexes) == 0:
@@ -379,13 +385,15 @@ class UfoInstanceExporterView(UfoMasterExporterView):
 			self.updateSettings()
 			#dest = vl.dialogs.getFolder()[0]
 			dest = GetFolder()
-			
-			instances = [self.font.instances[index]
-						 for index in self.plugin.masterIndexes]
+
+			instances = [
+				self.font.instances[index]
+				for index in self.plugin.masterIndexes
+			]
 			for instance in instances:
 				master = instance.interpolatedFont.masters[0]
-				instance_dest = os.path.join(dest, instance.fullName+".ufo")
-				
+				instance_dest = os.path.join(dest, instance.fullName + ".ufo")
+
 				self.ufoFactory.exportSingleUFObyMaster(
 					master,
 					instance_dest,
@@ -395,13 +403,13 @@ class UfoInstanceExporterView(UfoMasterExporterView):
 					add_mastername_as_stylename=False,
 					verbose=True
 				)
-				
+
 			subprocess.Popen(["open", dest])
 			return (True, None)
 
 
 class UfoExporterTabs(object):
-	
+
 	def __init__(self, posSize, plugin):
 		if _DEBUG_:
 			print("ufoGlyphsOutput lib")
@@ -441,7 +449,7 @@ class UfoExporterTabs(object):
 
 		if not self.LoadPreferences():
 			print("Note: 'UfoGlyphsOutput' could not load preferences. Will resort to defaults")
-		
+
 		# set initial values
 		#view = self.superView.mainGroup.tabs[sender.get()].view
 		#if hasattr(view, "exportUfoList"):
@@ -461,8 +469,8 @@ class UfoExporterTabs(object):
 		self.designspaceExportTab.view.setFont(font)
 
 	def export(self):
-		if not self.SavePreferences( None ):
-				print("Note: 'UfoGlyphsOutput' could not write preferences.")
+		if not self.SavePreferences(None):
+			print("Note: 'UfoGlyphsOutput' could not write preferences.")
 		self.superView.mainGroup.tabs[self.superView.mainGroup.tabs.get(
 		)].view.export()
 
@@ -475,46 +483,46 @@ class UfoExporterTabs(object):
 	#		self.plugin.selectedMasterIndexes = view.exportUfoList.getSelection()
 	#	else:
 	#		view.updateControls() # designspace view has extra controls in place of list
-		
-	def tabSwitchCallback( self, sender ):
+
+	def tabSwitchCallback(self, sender):
 		for exportGroup in self.masterExportGroup ,self.instanceExportGroup , self.designspaceExportGroup:
 			exportGroup.LoadPreferences()
-		
+
 		view = self.superView.mainGroup.tabs[sender.get()].view
 		if hasattr(view, "exportUfoList"):
 			self.plugin.selectedMasterIndexes = view.exportUfoList.getSelection()
 		else:
-			view.updateControls() # designspace view has extra controls in place of list
+			view.updateControls()  # designspace view has extra controls in place of list
 		#self.updateControls()
 		self.SavePreferences(sender)
 
 
-	def SavePreferences( self, sender ):
+	def SavePreferences(self, sender):
 		try:
 			Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoExporterTabs.tabs"] = self.superView.mainGroup.tabs.get()
 		except:
 			return False
-			
+
 		return True
 
-	def LoadPreferences( self ):
+	def LoadPreferences(self):
 		try:
 			Glyphs.registerDefault("com.rafalbuchner.UfoGlyphsOutput.UfoExporterTabs.tabs", 0)
-			#self.superView.mainGroup.tabs.set( Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoExporterTabs.tabs"] )
-			
+			#self.superView.mainGroup.tabs.set(Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoExporterTabs.tabs"])
+
 			tabIndex = Glyphs.defaults["com.rafalbuchner.UfoGlyphsOutput.UfoExporterTabs.tabs"]
-			self.superView.mainGroup.tabs.set( tabIndex )
-			
+			self.superView.mainGroup.tabs.set(tabIndex)
+
 			if (tabIndex == 0):
 				self.superView.mainGroup.tabs[tabIndex].view.updateControls()
-			
+
 			#self.updateControls()
 			#print("tabs is now1", self.superView.mainGroup.tabs.getNSTabView())
 			#print("tabs is now2", self.superView.mainGroup.tabs[self.superView.mainGroup.tabs.get()])
-			
+
 		except:
 			return False
-			
+
 		return True
 
 
