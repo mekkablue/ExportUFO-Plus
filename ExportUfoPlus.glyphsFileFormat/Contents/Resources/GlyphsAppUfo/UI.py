@@ -4,7 +4,7 @@
 from importlib import reload
 import vanilla as vl
 from GlyphsAppUfo import glyphsAppUfo
-from GlyphsApp import *
+from GlyphsApp import Glyphs, Message, GetFolder
 import sys
 import os
 import subprocess
