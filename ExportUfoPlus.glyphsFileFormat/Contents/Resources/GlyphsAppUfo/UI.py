@@ -97,6 +97,8 @@ class UfoMasterExporterView(vl.Group):
 		if _DEBUG_:
 			print(f"> DEBUG: {self.__class__} setting font /{self.font}/")
 		self.font = font
+		if font is None:
+			return
 		self.exportUfoList.set([m.name for m in self.font.masters])
 		# requires callback
 		#self.exportUfoList.setSelection([1])
@@ -320,7 +322,8 @@ UFO masters are allowed to have differing numbers of glyphs, giving more control
 	def getMasters(self):
 		if _DEBUG_:
 			print("> DEBUG: getting masters")
-
+		if not self.font:
+			return []
 		return [self.font.masters[index] for index in self.masterList.getSelection()]
 
 	def export(self):
@@ -366,6 +369,8 @@ class UfoInstanceExporterView(UfoMasterExporterView):
 		if _DEBUG_:
 			print(f"> DEBUG: {self.__class__} setting font /{self.font}/")
 		self.font = font
+		if font is None:
+			return
 		exportList = []
 		for i in self.font.instances:
 			exportList += [i.fullName]

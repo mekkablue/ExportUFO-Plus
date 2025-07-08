@@ -140,7 +140,7 @@ class UfoFactory(object):
 
 	def setFont(self, font):
 		self.font = font
-		self.fontPath = font.filepath
+		self.fontPath = font.filepath if font else ""
 
 	def loadFontFromPath(self, fontPath):
 		font = Glyphs.open(fontPath, showInterface=False)
