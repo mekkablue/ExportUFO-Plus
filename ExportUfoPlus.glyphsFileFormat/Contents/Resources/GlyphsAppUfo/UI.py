@@ -37,7 +37,7 @@ class UfoMasterExporterView(vl.Group):
 		self.plugin = plugin
 
 		super(UfoMasterExporterView, self).__init__(posSize)
-		x, y, p = (10, 10, 10)
+		y, p = (10, 10)
 		btnH, txtH = (22, 17)
 		self.txt01 = vl.TextBox((p * 2, y, -p * 2, txtH), self.selectionTitle)
 		y += txtH + p * 2
@@ -118,14 +118,15 @@ class UfoMasterExporterView(vl.Group):
 		### not to be done on export (new instance!) but on selection change
 		###self.plugin.selectedMasterIndexes = self.exportUfoList.getSelection()
 
-		kerningAsFeatureText = True if self.kerningDataOptions[self.kerningDataTypeRadio.get(
-		)] == "export kerning as a part of feature text" else False
+		kerningAsFeatureText = self.kerningDataOptions[self.kerningDataTypeRadio.get(
+		)] == "export kerning as a part of feature text"
 		self.plugin.kerningAsFeatureText = kerningAsFeatureText
 
 	def getMasters(self):
 		if _DEBUG_:
 			print(f"> DEBUG: {self.__class__} getting masters")
-
+		if self.font is None:
+			return []
 		return [self.font.masters[index] for index in self.masterList.getSelection()]
 
 	def export(self):
@@ -167,8 +168,10 @@ class UfoDesignspaceExporterView(vl.Group):
 	]
 	selectionTitle = "Select designspace export method:"
 	infoText = "Writes all selected masters as separate .ufo files.\nAll files at the chosen location will be overwritten"
-	kerningDataOptions = ["... and export kerning as a part of UFO data",
-						  "export kerning as a part of feature text"]
+	kerningDataOptions = [
+		"... and export kerning as a part of UFO data",
+		"export kerning as a part of feature text"
+	]
 
 	def __init__(self, posSize, plugin, ufoFactory):
 		self.ufoFactory = ufoFactory
@@ -176,7 +179,7 @@ class UfoDesignspaceExporterView(vl.Group):
 		self.plugin = plugin
 
 		super(UfoDesignspaceExporterView, self).__init__(posSize)
-		x, y, p = (10, 10, 10)
+		y, p = (10, 10)
 		btnH, txtH = (22, 17)
 		self.txt01 = vl.TextBox((p * 2, y, -p * 2, txtH), self.selectionTitle)
 		y += txtH + p
@@ -185,7 +188,7 @@ class UfoDesignspaceExporterView(vl.Group):
 			self.options,
 			callback=self.radioGroupCallback
 		)
-		y += btnH * 3+p * 2
+		y += btnH * 3 + p * 2
 
 		# in tooltip list all the functionalities
 		self.is_vf = vl.CheckBox(
@@ -295,7 +298,7 @@ UFO masters are allowed to have differing numbers of glyphs, giving more control
 		#	self.use_production_names.enable(False)
 		#	self.decompose_smart_stuff.enable(False)
 		#	self.kerningDataTypeRadio.enable(False)
-        #
+		#
 		#if self.options[sender.get()] == "designspace package\n(together with all masters as ufo files)":
 		#	self.delete_unnecessary_glyphs_in_special_masters.enable(True)
 		#	self.use_production_names.enable(True)
@@ -433,7 +436,7 @@ class UfoExporterTabs(object):
 				(10, 10, 80, 20), "DEBUG", callback=self.debugCallback)
 
 		self.superView.mainGroup.tabs = vl.Tabs(
-			(10, 10, -10, -10), ["Designspace Export", "Master Export", "Instance Export"], callback=self.tabSwitchCallback)
+			tabsPossize, ["Designspace Export", "Master Export", "Instance Export"], callback=self.tabSwitchCallback)
 		self.ufoFactory = glyphsAppUfo.UfoFactory()
 
 		self.designspaceExportTab = self.superView.mainGroup.tabs[0]
@@ -490,7 +493,7 @@ class UfoExporterTabs(object):
 	#		view.updateControls() # designspace view has extra controls in place of list
 
 	def tabSwitchCallback(self, sender):
-		for exportGroup in self.masterExportGroup ,self.instanceExportGroup , self.designspaceExportGroup:
+		for exportGroup in self.masterExportGroup, self.instanceExportGroup, self.designspaceExportGroup:
 			exportGroup.LoadPreferences()
 
 		view = self.superView.mainGroup.tabs[sender.get()].view

@@ -1,11 +1,11 @@
 
-from GlyphsApp import *
+from GlyphsApp import Glyphs, GSInstance
 import re
 import os
 import tempfile
 import shutil
 # from fontParts.world import OpenFont as OpenUfo
-from AppKit import NSClassFromString, NSURL
+from Foundation import NSClassFromString, NSURL
 from fontTools.designspaceLib import (
 	DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, RuleDescriptor)
 
@@ -68,9 +68,9 @@ def hardcodedFixes_deleteLater(ufoPath):
 #			allowLineInFeaText = True
 #
 #	RFont.features.text = "\n".join(feaWithoutKerning)
-	
+
 def getRidOfKernInFEA(dest):
-	f = open(dest+"/features.fea")
+	f = open(dest + "/features.fea")
 	#feaText = RFont.features.text
 	feaText = f.read()
 	f.close()
@@ -79,7 +79,7 @@ def getRidOfKernInFEA(dest):
 
 	for index, feaLine in enumerate(feaText.split("\n")):
 		_feaLine = feaLine.strip()
-		_feaLine = re.sub("\s\s+", " ", _feaLine)
+		_feaLine = re.sub(r"\s\s+", " ", _feaLine)
 		_feaLine = _feaLine.replace(" ;", ";")
 
 		if _feaLine.startswith("@MMK_L_"):
@@ -97,7 +97,7 @@ def getRidOfKernInFEA(dest):
 			allowLineInFeaText = True
 
 	#RFont.features.text = "\n".join(feaWithoutKerning)
-	f = open(dest+"/features.fea", "w")
+	f = open(dest + "/features.fea", "w")
 	f.write("\n".join(feaWithoutKerning))
 	f.close()
 
@@ -108,8 +108,8 @@ def getRidOfKernInFEA(dest):
 
 
 def getRidOfKernAsData(dest):
-	os.remove(dest+"/kerning.plist")
-	os.remove(dest+"/groups.plist")
+	os.remove(dest + "/kerning.plist")
+	os.remove(dest + "/groups.plist")
 	#RFont.kerning.clear()
 	#RFont.groups.clear()
 
@@ -151,9 +151,9 @@ class UfoFactory(object):
 		return [glyph.name for glyph in self.font.glyphs if not glyph.export]
 
 	def _getBoundsByTag(self, tag):
-		__doc__ = """Provided an axis tag, returns an array in the form of [minimum, maximum] representing the bounds of an axis. 
+		__doc__ = """Provided an axis tag, returns an array in the form of [minimum, maximum] representing the bounds of an axis.
 
-Example use: 
+Example use:
 min, max = getBoundsByTag(Glyphs.font,"wght")"""
 		min = None
 		max = None
@@ -162,9 +162,9 @@ min, max = getBoundsByTag(Glyphs.font,"wght")"""
 				continue
 			for master in self.font.masters:
 				coord = master.axes[i]
-				if min == None or coord < min:
+				if min is None or coord < min:
 					min = coord
-				if max == None or coord > max:
+				if max is None or coord > max:
 					max = coord
 		return [min, max]
 
@@ -195,8 +195,10 @@ min, max = getBoundsByTag(Glyphs.font,"wght")"""
 		__doc__ = """Returns a font family name"""
 		master_name = master.name
 		if is_vf:
-			font_name = "%s %s - %s" % (self.font.familyName,
-										self._getVariableFontFamily(), master_name)
+			font_name = "%s %s - %s" % (
+				self.font.familyName,
+				self._getVariableFontFamily(), master_name
+			)
 		else:
 			font_name = "%s - %s" % (self.font.familyName, master_name)
 		return font_name
@@ -213,8 +215,10 @@ min, max = getBoundsByTag(Glyphs.font,"wght")"""
 	def _getNameWithAxis(self, axes, is_vf=False):
 		__doc__ = """Provided a dict of axes for a brace layer, returns a font family name"""
 		if is_vf:
-			font_name = "%s %s -" % (self.font.familyName,
-									 self._getVariableFontFamily())
+			font_name = "%s %s -" % (
+				self.font.familyName,
+				self._getVariableFontFamily()
+			)
 		else:
 			font_name = self.font.familyName
 		for i, axis in enumerate(axes):
@@ -357,8 +361,8 @@ min, max = getBoundsByTag(Glyphs.font,"wght")"""
 				if self.font.customParameters["Axis Mappings"] is not None:
 					if axis.axisTag in self.font.customParameters["Axis Mappings"].keys():
 						glyphsAxisMap = self.font.customParameters["Axis Mappings"][axis.axisTag]
-						axis_map = {v:k for k,v in glyphsAxisMap.items()}
-				
+						axis_map = {v: k for k, v in glyphsAxisMap.items()}
+
 			# do it as optional!!!!
 			if axis_map is None and useUSClassForMapping:  # maybe there is a better name for it?
 				axis_map = self.__getAxisMappingBasedOnUSClasses(i, axis)
@@ -389,13 +393,13 @@ min, max = getBoundsByTag(Glyphs.font,"wght")"""
 				if line.startswith("condition "):
 					feature_index = i
 					break
-		if(feature_index):
+		if feature_index:
 			self.font.features[feature_index].code = re.sub(
 				r'#ifdef VARIABLE.*?#endif', '', self.font.features[feature_index].code, flags=re.DOTALL)
 
 	def getConditionsFromOT(self):
 		__doc__ = """Returns two arrays: one a list of OT substitution conditions, and one of the glyph replacements to make given those conditions. Each array has the same index.
-		
+
 Example use:
 condition_list, replacement_list = getConditionsFromOT(font)
 """
@@ -412,10 +416,10 @@ condition_list, replacement_list = getConditionsFromOT(font)
 				conditions = []
 				conditions_list = line.split(",")
 				for condition in conditions_list:
-					m = re.findall("< (\w{4})", condition)
+					m = re.findall(r"< (\w{4})", condition)
 					tag = m[0]
 					axis_name = self._getAxisNameByTag(tag)
-					m = re.findall("\d+(?:\.|)\d*", condition)
+					m = re.findall(r"\d+(?:\.|)\d*", condition)
 					cond_min = float(m[0])
 					if len(m) > 1:
 						cond_max = float(m[1])
@@ -432,10 +436,10 @@ condition_list, replacement_list = getConditionsFromOT(font)
 				m = re.findall("sub (.*) by (.*);", line)[0]
 				replace = (m[0], m[1])
 				try:
-					replacement_list[condition_index-1].append(replace)
+					replacement_list[condition_index - 1].append(replace)
 				except:
 					replacement_list.append(list())
-					replacement_list[condition_index-1].append(replace)
+					replacement_list[condition_index - 1].append(replace)
 		return [condition_list, replacement_list]
 
 	def applyConditionsToRules(self, doc, condition_list, replacement_list):
@@ -443,7 +447,7 @@ condition_list, replacement_list = getConditionsFromOT(font)
 		rules = []
 		for i, condition in enumerate(condition_list):
 			r = RuleDescriptor()
-			r.name = "Rule %s" % str(i+1)
+			r.name = "Rule %s" % str(i + 1)
 			r.conditionSets.append(condition)
 			for sub in replacement_list[i]:
 				r.subs.append(sub)
@@ -534,17 +538,17 @@ condition_list, replacement_list = getConditionsFromOT(font)
 				glyph_names_to_delete = self._getNonSpecialGlyphs(axes)
 
 				for glyph in glyph_names_to_delete:
-					del(brace_font.glyphs[glyph])
+					del brace_font.glyphs[glyph]
 				feature_keys = [
 					feature.name for feature in brace_font.features]
 
 				for key in feature_keys:
-					del(brace_font.features[key])
+					del brace_font.features[key]
 				class_keys = [
 					font_class.name for font_class in brace_font.classes]
 
 				for key in class_keys:
-					del(brace_font.classes[key])
+					del brace_font.classes[key]
 
 				for glyph in brace_font.glyphs:
 					if glyph.rightKerningGroup:
@@ -560,8 +564,10 @@ condition_list, replacement_list = getConditionsFromOT(font)
 				brace_font.kerningVertical = {}
 
 			ufo_file_path = os.path.join(temp_ufo_folder, ufo_file_name)
-			self.exportSingleUFObyMaster(brace_font.masters[0], ufo_file_path, kerningAsFeatureText, use_production_names=use_production_names,
-										 decompose_smart_stuff=decompose_smart_stuff, add_mastername_as_stylename=False, verbose=False)
+			self.exportSingleUFObyMaster(
+				brace_font.masters[0], ufo_file_path, kerningAsFeatureText, use_production_names=use_production_names,
+				decompose_smart_stuff=decompose_smart_stuff, add_mastername_as_stylename=False, verbose=False
+			)
 
 	def _fixStyleName(self, name, path):
 		__doc__ = """Provided a master name and its path, swaps the styleName attribute in fontinfo.plist for the master name. This is required by some plugins like ScaleFast."""
@@ -573,10 +579,10 @@ condition_list, replacement_list = getConditionsFromOT(font)
 		f = open(new_path, 'w', encoding="utf-8")
 		f.write(new_data)
 		f.close()
-		
+
 	def _getRidOfKernAsData(self, name, path):
 		pass
-		
+
 	def _getRidOfKernInFEA(self, name, path):
 		pass
 
@@ -587,45 +593,45 @@ condition_list, replacement_list = getConditionsFromOT(font)
 		exporter.setFontMaster_(master)
 		exporter.setConvertNames_(use_production_names)
 		exporter.setDecomposeSmartStuff_(decompose_smart_stuff)
-		_print("Exporting master: %s - %s" %
-			   (master.font.familyName, master.name), verbose)
-		print("Exporting master: %s - %s" %
-					   (master.font.familyName, master.name), verbose)
+		_print("Exporting master: %s - %s" % (master.font.familyName, master.name), verbose)
+
 		exporter.writeUfo_toURL_error_(
 			master, NSURL.fileURLWithPath_(dest), None)
 
 		hardcodedFixes_deleteLater(dest)
-		
+
 		if kerningAsFeatureText:
 			getRidOfKernAsData(dest)
 		if not kerningAsFeatureText:
 			getRidOfKernInFEA(dest)
-		
+
 		if add_mastername_as_stylename:
 			self._fixStyleName(master.name, dest)
-		
-		# old fontparts code	
+
+		# old fontparts code
 		#ufoFont = OpenUfo(dest, showInterface=False)
 		#print("ufoFont", ufoFont)
 		#if kerningAsFeatureText:
 		#	getRidOfKernAsData(ufoFont)
 		#if not kerningAsFeatureText:
 		#	getRidOfKernInFEA(ufoFont)
-		#	
+		#
 		#ufoFont.save()
 		#if add_mastername_as_stylename:
 		#	self._fixStyleName(master.name, dest)
 
 	def exportSingleUFObyMasterIndex(self, masterIndex, dest, kerningAsFeatureText, use_production_names, decompose_smart_stuff, add_mastername_as_stylename, is_vf=False, verbose=False):
 		__doc__ = """Provided a master list index and destination path, exports a UFO"""
-		
+
 		master = self.font.masters[masterIndex]
 		font_name = self._getFamilyNameWithMaster(master, is_vf)
 		file_name = "%s.glyphs" % font_name
 		ufo_file_name = file_name.replace('.glyphs', '.ufo')
 		ufo_file_path = os.path.join(dest, ufo_file_name)
-		self.exportSingleUFObyMaster(master, ufo_file_path, kerningAsFeatureText,
-									 use_production_names, decompose_smart_stuff, add_mastername_as_stylename, verbose)
+		self.exportSingleUFObyMaster(
+			master, ufo_file_path, kerningAsFeatureText,
+			use_production_names, decompose_smart_stuff, add_mastername_as_stylename, verbose
+		)
 
 	def exportUFOMasters(self, dest, kerningAsFeatureText, use_production_names, decompose_smart_stuff, add_mastername_as_stylename, is_vf=False, verbose=False):
 		__doc__ = """Provided a destination, exports a UFO for each master in the UFO, not including special layers (for that use generateMastersAtBraces)"""
@@ -634,8 +640,10 @@ condition_list, replacement_list = getConditionsFromOT(font)
 			file_name = "%s.glyphs" % font_name
 			ufo_file_name = file_name.replace('.glyphs', '.ufo')
 			ufo_file_path = os.path.join(dest, ufo_file_name)
-			self.exportSingleUFObyMaster(master, ufo_file_path, kerningAsFeatureText,
-										 use_production_names, decompose_smart_stuff, add_mastername_as_stylename, verbose)
+			self.exportSingleUFObyMaster(
+				master, ufo_file_path, kerningAsFeatureText,
+				use_production_names, decompose_smart_stuff, add_mastername_as_stylename, verbose
+			)
 
 	def createUfoAndDesignspacePackage(self, dest, kerningAsFeatureText, mute_not_exporting_glyphs, use_production_names, decompose_smart_stuff, add_mastername_as_stylename, delete_unnecessary_glyphs_in_special_masters, useUSClassForMapping=True, is_vf=False, verbose=False):
 		__doc__ = """Provided a font object, and destination directory path creates ufos and designspace file inside the this directory"""

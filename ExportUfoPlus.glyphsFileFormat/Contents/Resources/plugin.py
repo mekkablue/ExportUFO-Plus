@@ -2,13 +2,11 @@
 
 from __future__ import division, print_function, unicode_literals
 import objc
-from collections import OrderedDict
-from GlyphsApp import *
-from GlyphsApp.plugins import *
-import vanilla as vl
-import GlyphsAppUfo.glyphsAppUfo as glyphsAppUfo
+from GlyphsApp import Glyphs
+from GlyphsApp.plugins import FileFormatPlugin
 from GlyphsAppUfo.UI import UfoExporterTabs
-from AppKit import NSPoint, NSSize
+from Foundation import NSRect, NSPoint, NSSize
+
 _DEBUG_ = False
 
 
@@ -32,7 +30,7 @@ class ExportUfoPlus(FileFormatPlugin):
 
 	def exportOptions(self):
 		return {"selectedMasterIndexes": self.selectedMasterIndexes}
-	
+
 	def setExportOptions_(self, exportOptions):
 		# master indices of previous object
 		self.masterIndexes = exportOptions["selectedMasterIndexes"]
@@ -44,10 +42,10 @@ class ExportUfoPlus(FileFormatPlugin):
 			self.exporterView.export()
 			return (True, 'The export was successful.')
 
-		except Exception as error:
+		except Exception as e:
 			import traceback
 			print(traceback.format_exc())
-			return (False, 'No file chosen')
+			return (False, 'No file chosen', e)
 
 	@objc.python_method
 	def __file__(self):
